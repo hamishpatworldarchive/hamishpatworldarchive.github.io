@@ -1,0 +1,861 @@
+<!-- saved from url=(0022)http://internet.e-mail -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1255">
+<title>המלצות על קורסים</title>
+
+<script language="JavaScript">
+
+function checkform()
+{
+
+	if (document.add.course.value=="")
+	{
+		alert ("נא להכניס שם קורס");
+		return false;
+	}
+	else
+		if (document.add.prof.value=="")
+		{
+			alert ("נא להכניס שם מרצה");
+			return false;
+		}
+		else
+			return true;
+}
+
+</script>
+</head>
+<body>
+
+<body bgcolor=cornsilk>
+<div dir=rtl>
+	<table width=100% style="border-collapse: collapse" cellspacing="0" border=0><td><a href="recommend.php?action=new"><font color=red face=David><b>להוספת המלצה על קורסים - לחץ כאן ! </b></font></a></td><td><div align=left>		<form action="recommend.php?action=browse" method=post>
+			<table border=0>
+				<tr><td>
+				  <SELECT name="cat">
+					<option value="0">בחר סוג קורס</option>
+    				<option value="יהדות">יהדות</option>
+   	    			<option value="סמינריון">סמינריון</option>
+   	    			<option value="בחירה">בחירה</option>
+        			<option value="חובה">חובה</option>
+        			<option value="אנגלית">אנגלית</option>
+        			<option value="אחר / כללי">אחר / כללי</option>
+					<option value="*">[הצג הכל]</option>
+				  </SELECT></td>
+				
+				  <td>מיין לפי</td><td>
+					<SELECT name=orderlogic>
+						<option value="grade">ציון הממליץ</option>
+						<option value="attendance">בדיקת נוכחות</option>
+ 						<option value="prof">שם המרצה</option>
+					</SELECT></td><td><input type=submit value="בחר"></td></tr>
+			</table>
+		</form>
+</div>
+</td></table>
+	<table border=3 bordercolor=royalblue width=100% >
+	  		<tr>
+				<td width=10%><font face=arial color=red>שם הממליץ</td>
+				<td width=4%><font face=arial color=red>שנת לימוד</td>
+				<td><font face=arial color=red>שם הקורס</td>
+				<td><font face=arial color=red>סוג הקורס</td>
+				<td><font face=arial color=red>שם המרצה</td>
+				<td><font face=arial color=red>תאריך</td>
+				<td><font face=arial color=red> חובת נוכחות</td>
+				<td width=40%><font face=arial color=red>המלצת הכותב</td> 
+				<td width=10%><font face=arial color=red>ציון</td>
+	  		</tr>
+
+
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עמית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> בית יהודי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הרמן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 27.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מומלץ, מומלץ, מומלץ! הקורס מעניין מאוד, אפילו למי שחושב שלימודי יהדות הם לא בשבילו. החומר לא רע בכלל, אבל מה שעשה לי את הקורס הוא המרצה המרתק, שפעמים רבות עוזב, מבלי לשים לב, את חומר הלימוד וגולש לסיפורים שונים ומשונים - ויש לו המון כאלה!<br />
+למבחן יש ללמוד, פרט מהמחברת, גם ספרון קטן פרי עטו של המרצה. המבחן ברמה בינונית, אבל הציונים גבוהים ביותר!<br />
+הקורס מוגבל (לפחות בינתיים) לבוגרי בתי"ס כלליים בלבד, אז מי שיכול - לא לפספס. </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סיוון </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סוגיות אקטואליות: כלכלה והלכה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הלינגר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 11.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; הוא בודק שמות ממש כל שיעור ! השיעורים עצמם לא מ-א-ו-ד מעניינים אבל המבחן- קלי קלות! שווה להגיע לשיעורים... </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ג </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> המלחמה במקרא </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> שפירא </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 22.6.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; יש הרבה דברים שתעשו בחיים, חלקם טובים וחלקם גרועים. לכו לקורס הזה וזו תהיה אחת הבחירות שתצטערו עליה כל חייכם. </td>
+				<td align=center>  <img src="1stars.gif" alt="1 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עמיחי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> היציאה מן הגטו-היהדות בעת החדשה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> פרופ' שמואל פיינר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 8.7.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; נושא הקורס הוא לא כמו שנשמע (שואה וכאלה) אלא משעמ הרבה יותר.נוכחות חובה ע"י העברת דף!!! מבחן קל מאוד. דוגמא מצויינת לקורס שמאפשר להיות בעננים כל השנה ללמוד חומר יום לפני ולעבור.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דן לזר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> שואה בהגות היהודית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> פרופ' מאיר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 7.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; בתוך מגוון ההמלצות שתראו, זוהי המלצה לקורס מעניין באמת, גם אם מאתגר ולא פשוט, בתחום פילוסופיה יהודית. אל תבואו אם אתם באים בשביל ציון, בואו אם אתם רוצים משהו שבאמת נשאר הרבה הרבה אחרי הקורס.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> רעות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> משנתו של הר' סולביצ'יק </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> פרופ' דב שוורץ </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.8.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; הקורס קשה ומשעממם,ישנה קריאת נוכחות באופן אקראי בכל שיעור. חובה לקנות ספר לקורס שנכתב ע"י המרצה, הספר שאינו קל בכלל מהווה כמחצית מהחומר למבחן(אם זה מעודד אז המבחן עם ספר פתוח)<br />
+ </td>
+				<td align=center>  <img src="1stars.gif" alt="1 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> היחידה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> התהוות המדינה הערבית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> פריש </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 26.2.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קשה מאוד לעקוב אחר המרצה. החומר מועבר בצורה לא ברורה, קצת בלאגן. הציונים לא משהו, מהשנה [ המבחן היה אמריקאי]-ממוצע 78 עם זאת חומר מעניין ומרחיב אופקים לאנשי הלוגיסטיקה- קצת ידע על ההיסטוריה של האזור והבנת המצב ביננו לערבים </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אורית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מועדי ישראל: תלמוד, הלכה ומנהג </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עמית אהרון </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 10.7.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; גם קורס קל וגם נחמד וסימפטי. יש גם לציין שהוא דיי מועיל לידע הכללי בנושא חגים וכו'.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> כהן יובל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ישראל ושכנותיה בתפיסת המקרא </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עמיחי נחשון </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 24.10.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; (קורס יסוד בתנ"ך)<br />
+הקורס נחמד מאוד.. המרצה משעשע למדי ובהחלט אפשר לצחוק איתו וממנו.<br />
+הוא מעביר דף.. ולא ממש אכפת לו לענ"ד אם אתם שם או לא, כך שתמיד אפשר למצוא מי שיסמן..<br />
+המבחן פתוח והמרצה מתחנן שלא לכתוב יותר משני עמודים <img src="http://199.203.55.3/~ofra/forum/Images/vhappy.gif">. הציונים בסוף היו קצת מאכזבים.. אבל סכה"כ קורס נחמד <img src="http://199.203.55.3/~ofra/forum/Images/happy.gif">.<br />
+בהצלחה <img src="http://199.203.55.3/~ofra/forum/Images/happy.gif">. </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מורן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> נבואת אחרית הימים </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מר אביחי נחשון </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 14.10.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מרצה מעניין .אומר מתי לכתוב ומתי לא .<br />
+מעט מאוד חומר למבחן.<br />
+שאלות פתוחות, מבקש תשובות של עד שתי שורות.<br />
+יש בחירה של 5 מתוך 7. </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סיוון </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהודי מע' אירופה בימי הביניים </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מלכיאל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 11.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; אמנם כל שיעור כותבים בערך 7 עמודים, אך המבחן הוא עם חומר פתוח ובחירה של שאלות, ככה שהציונים בהתאם- גבוהים. </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> איציק </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ג </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סדר פסח תלמוד הלכה ומנהג </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> לא זוכר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 5.7.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; זהו קורס בחירה כללי שיש בו אמנם נוכחות חובה אבל דיבור עם המרצה על חוסר היכולת להגיע ישחרר אותך מהשתתפות של לפחות 3 מתוך 4 שיעורים חוץ מזה במבחן סוף שנה יש חומר פתוח  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אורטל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אישות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ירמיהו בן- פזי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 9.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; טוב, אז ככה. הקורס משעשע לאללה. המרצה בלאגניסט בטירוף והסטודנטים גורמים לו לסיים לפני הזמן. צריך לסמן V ליד השם ככה שאם אתם מוצאים פראייר... מבחן יחסית קליל. קחו בחשבון שהקורס משעמם יחסית אבל מאוד קליל ומצחיק.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אורטל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הגנה וביטחון בישוב היהודי בא"י </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יוסי אבנרי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 9.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; אין לי שום מושג איך הקורס בגלל שב 10 הדקות שהייתי בקורס בשיעור הראשון (שנה שעברה), כמעט איבדתי את ההכרה מרוב שיעמום. מומלץ למי שאוהב היסטוריה. אין חובת נוכחות. המבחן קל מאוד. לומדים משיחזורי מבחנים של שנים קודמות. בהצלחה.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> איתמר דביר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הספרים ההיסטורים-ספר שמואל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יונתן יעקובס </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 20.8.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; המרצה מעביר את החומר בצורה מעניינת וטובה,יש הרבה מה ללמוד הוא מעביר דף שמות המבחן במועד א אמריקאי,30 שאלות במועד ב פתוח.מבחן יחסית קל החומר מעניין +יש גם חומר באתר על קורס זה  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אביעד </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> בית שני </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ינקלביץ </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 24.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; חומר מרתק מועבר ברמה גבוהה, הרצאה שבועית של 4<br />
+שעות (קורס סמיסטריאלי ששווה 2 ש"ש)! מבחן אמריקאי קליל! קיים תקציר של הקורס!! </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דן לזר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סוגיות אקטואליות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> חרל"פ </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 8.5.2000 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס מצויין ביהדות. הקורס כולל חובת נוכחות ( אך הבדיקה היא לא רציפה ), והמרצה מגיע תמיד ומעביר קורס צפוף, אך החומר מעניין מאד, וגם הציונים טובים, למעוניינים... </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ליאת לביאד </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דמויות נשים במקרא </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> חזוניאל טויטו </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 2.8.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס העונה על כל הצרכים. המבחן אמריקאי - יש לבחור 25 שאלות מתוך 30. המרצה מעולה !!!!! והקורס שווה אפילו שעה של שינה - כדי להגיע בזמן ולהופיע לכל ההרצאות משום שהוא מאוד מעשיר - לדתיים ולחילונים כאחד. בהצלחה ובהנאה. ליאת. </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> שול </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הסיפור המקראי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ברקאי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 7.6.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מרצה משעמם מעביר את החומר בצורה איטית יותר פילוסופיה מאשר תנ"כ. מבחן פתוח. לא ממולץ.  </td>
+				<td align=center>  <img src="1stars.gif" alt="1 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> רעות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מלחמה ושלום במקרא </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דר'דוד אלגביש </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.8.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קריאת שמות 2 דקות לפני סוף השיעור כך שאפשר להגיע בדיוק אז.<br />
+מרצה נחמד מאד ישנם שיעורים המוקדשים לידע כללי ואינם למבחן המבחן בדרגת קושי קלה יחסית </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> רעות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דרשנים בימי הביניים </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דר' שאול רגב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.8.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; המרצה נחמד מאד אבל הנושא משעממם ביותר<br />
+המבחן קל מאד (שאלות פתוחות) </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> רעות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א"י תלמוד הלכה ומנהג </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דר' י.מלחי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.8.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; דרגת הקושי במבחן אינה גבוהה (אמריקאי) אך יש חובת הגשת עבודה בסמסטר א'(סיכום מאמרים)  </td>
+				<td align=center>  <img src="3stars.gif" alt="3 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אפרת </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> פשר החלומות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דר' אלקיים </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 1.7.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מעביר שמות לעיתים רחוקות, משחרר מוקדם(כשהקורס בשעות הערב),קורס קליל ומבחן אמריקאי(לרב עם ציונים גבוהים) מומלץ מאוד!!  </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> קובי פינטו </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> פשר החלומות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דר' אלקיים </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 24.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס המדבר על תפיסת החלומות בתרבויות קדומות שונות ועל מיתולוגיות קדומות באופן כללי(למרות שם הקורס).מידי פעם מעביר רשימת שמות.מבחן אמריקאי.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> כהן יובל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אישות (תלמוד) </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דר' דב הרמן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 24.10.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; ד"ר הרמן הוא מהמרצים הטובים ביותר שתפגשו באוני'.. הקורס שלו מ-ר-ת-ק ! הרמן הוא בן אדם נפלא והוא ממלא את הקורס בסיפורים שירתקו אתכם. המבחן לא קל מדי (אמריקני - 25 מ 30 שאלות), אבל הקורסים שלו בהחלט שווים את זה.. (וחוץ מזה, הציונים גבוהים). בקיצור - אם אתם יכולים, אל תפספסו.. לא שווה לבוא לבר אילן בלי לעבור אצל הרמן לפחות פעם אחת <img src="http://199.203.55.3/~ofra/forum/Images/happy.gif"><br />
+בהצלחה <img src="http://199.203.55.3/~ofra/forum/Images/happy.gif"> </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> קובי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מועדי ישראל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אהרון ארנד </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 28.5.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; שיעור פשוט מדהים ! המרצה קומיקאי מדרגה ראשונה ... אנחנו מתגלגלים מצחוק ... יש הקראת שמות אבל אפשר בהחלט לתחמן ...  </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> איתמר דביר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מועדי ישראל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דויד הנשקה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.6.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; המרצה לא קרא שמות אף שיעור. השיעורים מעניינים אולם החומר קשה מתבסס הרבה על המקורות בגמרא,מבחן אמריקאי לא פשוט,28 שאלות. מומלץ למי שמחפש חיים קשים  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הילה סובול </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ספרי חכמה שירה ומגילות (איוב) </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אסתר אשל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 23.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; השיעור עצמו משעמם ביותר!!!<br />
+הקורס הוא קורס מאוד גדול - וזה לא מונע ממנה להקריא כ 120 שמות!!<br />
+<br />
+המבחן הוא אמריקאי - קליל במיוחד עם בחירה (20 שאלות מתוך 25)<br />
+<br />
+מועד ב' של המבחן - הוא בדיוק כמו מועד א'!!<br />
+אין עבודות הגשה - אין צורך להישאר בשיעור יותר מ5 דקות לאחר קריאת השמות!!<br />
+הציונים במבחנים הם מאוד גבוהים<br />
+מומלץ!! </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הילה סובול </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ספרי התורה - חיי היום יום במקרא </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אלגביש </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 26.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; בשיעור עצמו תתחילו לשים להרבה דברים חדשים בכיתה: כמו התקרה, השולחן, הכיסא, ופתאום שמים לב שנרדמים ומדי פעם מתעוריים כדי להעלות חיוך מהבדיחות ה "משעשעות" שלו!!<br />
+<br />
+החומר עצמו עוסק בסיפורי התנ"ך די סביר<br />
+המבחן הוא אמריקאי + בחירה. יאמר לזכותו שהמבחן היה אך ורק על החומר !! (אבל היה הרבה חומר - והמבחן היה קשה) כמו כן בקורס ישנה רשימה מלאה וגדושה ביותר של מאמרים שצריך לקרוא לקראת המבחן! (מיותר לציין שמפאת השעה המוקדמת , ואיכות הקורס נרשמו לקורס רק 30 תלמידים)את ההחלטה תעשו בעצמכם!<br />
+ </td>
+				<td align=center>  <img src="2stars.gif" alt="2 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אביעד </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> י-ם לדורותיה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> איזנשטט </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 24.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס אינטרנט, מעניין, דורש מפגש (דיון אינטרנטי)שבועי בן שעה, יש הרבה חומר לקרוא אך המבחן עם שאלות פתוחות והוגנות!  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הילה סובול </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מבוא לקבלה  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דניאל אברהמס </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 23.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; חבל שההמלצה הנמוכה ביותר היא 1 !!<br />
+הדבר היחידי שטוב בקורס הזה - הוא שלא חייבים להגיע אליו!!<br />
+המבחן במועד א' הוא די סביר<br />
+מי שמגיע למועד ב' - לצפות לטראומה פסיכולוגית: המבחן במועד ב' הוא קשה ביותר, עם טקסטים שונים ומשונים לניתוח (ומיותר לציין שאין אפשרות לאדם נורמלי לנתח אותם)<br />
+ובקיצור במשפט אחד: "שומר נפשו וציונו ירחק" </td>
+				<td align=center>  <img src="1stars.gif" alt="1 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> שמי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אגדה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> גברת יעל ברקוביץ </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 9.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס יסוד בתלמוד. מרצה צעירה, פלפל, נחמדה. כל שעור שלישי מתבטל. מבחן אמריקאי. בדיקת שמות פעמיים בסמסטר.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מאיה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סיפורי המקרא </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> גברת דבורה גנץ </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 13.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; רמת הקורס בסיסית מאד וגם מענינת המרצה מקסימה ומאד לארג'ית בעיניין נוכחות </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ערן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> זרמים ותנועות ביהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אדם פריזגר  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 14.10.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; השיעמום בהתגלמותו, בודק שמות לפעמים(מעביר דף), נמצא הרבה בחו"ל כך שיש הרבה חופשות שלא רשומות בדף החופשות, מבחן קצת קשה, ציונים בינונים ומטה(מבחן אמריקאי), עדיף לא להירשם אליו </td>
+				<td align=center>  <img src="1stars.gif" alt="1 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אני </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ספר בראשית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> גבי ברזילי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.8.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מרצה נחמד, מעביר את החומר בצורה מעניינת, לא קורא שמות וגם המבחן ברמה בסיסית ביותר בקיצור- ממש כדאי... </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> וזאן עדי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> בראשית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> גבי ברזילי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 3.7.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; לעומת חבריי שהמליצו על קורס זה בחום , אני דווקא ממליץ לא לגשת אליו. הוא מעביר דף כל שעור עם השמות ויעידו הציונים אצלו במבחן שהוא לא כ"כ קל . הקשר בין השאלות במבחן לסיכומי השעור הוא מיקרי לחלוטין </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אריאל כהן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ספר בראשית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> גבי ברזילאי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 14.6.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; המרצה מעביר את החומר בצורה מעניינת, אין נוכחות חובה, מבחן אמריקאי 33 שאלות מתוך 35 .  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> Tamara </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ג </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הספרים ההסטורים - בין שאול לדוד </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> גב' גנץ </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 27.10.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; בדיקת השמות לא נעשת כל שיעור - בערך כל 3 שבועות.<br />
+המרצה מעולה, עושה מהקורס שיעור מעניין וקל.<br />
+המבחן קל, כולל רק חומר ההרצאות ורק פריט ביבליוגרפי קטן מאוד, של כ- 5 עמודים. המבחן פתוח (עם תנ"ך, כמובן), שאלות קלות, והיא נותנת הרבה שאלות לדוגמא לפני המבחן. </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עומר רפאל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אישות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דב הרמן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 20.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס נחמד ודי מעניין<br />
+למרות שבודק נוכחות זה לא מעניין אותו,<br />
+המבחן אמריקאי. </td>
+				<td align=center>  <img src="4stars.gif" alt="4 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עומר רפאל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> בית יהודי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דב הרמן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; רוצו והירשמו כל עוד אפשר ותבטיחו לעצמכם שעה וחצי מהנות אחת לשבוע. קורס מדהים ומעניין, המרצה כריזמטי ומחצית השיעור בכלל לא בנושא<br />
+אלא סיפורים מדהימים שהמרצה מספר (נשמע מוזר אבל מעניין מאוד). לגבי המבחן הוא אמריקאי ברמה סבירה עד גבוהה אבל אפשר להצליח. </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עדי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הבית היהודי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> דב הרמן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 5.11.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מומלץ ביותר!!!<br />
+קורס ביהדות גם למי שלא מתעניין<br />
+דב הרמן הוא מרצה מדהים ומרתק ביותר, ללא ספק אחד הקורסים בהם הכי נהנתי, לא שמים לב לזמן שעובר כשהרמן ממלא אותו בסיפורים מרתקים וגולש מעבר לחומר<br />
+לרוץ ולהרשם </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סטנלי קארו </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> סוגיות בנושאים אקטואליים </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר הלינגר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 19.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; נוכחות חובה ונבדקת כל שיעור. הקורס מעניין ומציג התייחסות ההלכתית לסוגיות כלכליות עכשוויות- מעניין למי שלא נרתע מכך, המרצה מאוד מובן ומעביר השיעור בבהירות - הציונים גבוהים גם כן. בעיני מומלץ מוגדר כתלמוד  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> קרן שמש </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עיונים בחמש מגילות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר פוזן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 16.9.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מרצה מלמד במדרשה ורגיל ללמד בנות אי לכך ובהתאם לזאת הוא נוטה לפנות לסטודנטים בלשון נקבה:) חוצמזה קורס לא משהו המרצה לא מדבר בצורה ברורה כך שניתן יהיה לסכם/להבין הלימוד הוא ברמת תיכון לא מעבר אבל המבחן...מתחכם וניכנס לפרטים ולדקויות  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> קרן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> השפעתם של מגורשי ספרד </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר עמר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 23.7.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס מאוד משעמם המון חומר, בדיקת נוכחות כל שיעור מבחן פתוח עם מעט בחירה. לא מומלץ  </td>
+				<td align=center>  <img src="1stars.gif" alt="1 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ליאור </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מבוא לספרות המקראית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר מונדשיין </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 18.7.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס די מעניין . נוכחות לא חובה . מבחן שנתי (פתוח -לא קשה), 2 שא' מתוך 3. (לעבור על מבחנים קודמים). </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> נתי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> כיבוש והתנחלות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר משאלי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 31.7.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; אין חובת נוכחות מחברת גדולה המבחן עם ספר תנך וחוברת מקורות בד"כ 22 שאלות בבחינה מבחן קל מאוד כדאי  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> לילך </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> החוק המקראי ועולמו </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר משאלי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 7.7.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; כל הקורסים של ד"ר משאלי מומלצים. אין חובת נוכחות (למרות שהיא טוענת שאם אתה נוכח זה יכול לתת בונוס...) המבחן אמריקאי קל מאד. מרצה נחמדה  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> שירה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מבוא לתורה שבע"פ וסיפרותה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר יצחקי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 14.6.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; אין חובת נוכחות. הקרוס די משעמם. אבל - יצחקי נותן את רב השאלות של המבחן מראש+ תשובות. מבחן אמריקאי קליל.  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> איתמר דביר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> חיי הרוח, החברה והכלכלה של היהודים באימפריה העותמנית... </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר יעקב גלר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 21.6.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; הקורס מאוד מעניין,יש חובת נוכחות,הוא קורא שמות. הקורס נחשב לתולדות ישראל,המבחן פתוח(בלי חומר) השנה היתה בחירה של 9 מ 17 צריך הרבה לכתוב במבחן,אבל המרצה נותן את השאלות מראש. מומלץ   </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> כהן יובל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> חיי הרוח, החברה והכלכלה.. </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר יעקב גלר </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 24.10.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; (קורס בתע"י)<br />
+ד"ר גלר בודק שמות כמעט כל שיעור. אותי השיעור מאוד (!) שעמם .. הייתי מגיע רק בגלל בדיקת השמות וגם אז הייתי נרדם.. המבחן פתוח, סביר מאוד (שאלות די חוזרות על עצמן.. יש סיכום מעולה של הקורס פה באתר, תודות לעידית קורן <img src="http://199.203.55.3/~ofra/forum/Images/happy.gif">)<br />
+המרצה בן אדם נחמד.. אבל הקורס ממש משעמם (אותי לפחות... היו שם חבר'ה שנראו נהנים..)<br />
+בהצלחה. <img src="http://199.203.55.3/~ofra/forum/Images/happy.gif"> </td>
+				<td align=center>  <img src="2stars.gif" alt="2 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אורטל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> כל הקורסים של שמש </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר יעל שמש </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 9.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; אין לי שום מושג איך הקורס בגלל שאין בו חובת נוכחות. את המרצה פגשתי לראשונה במבחן. קל בטירוף ואפילו די מעניין כשלומדים למבחן. מומלץ בחום. בהצלחה רבה. </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> שמי שטובי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ארץ ישראל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר חיים טלבי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 25.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס יסוד בתלמוד. מרצה מאוד נחמד. מעביר את השעור בכיף. נוהג להחסיר פעם בחודש. השעורים בדר"כ לא עוסקים בנושא הקורס, אלא סוטים לנושאיים אקטואליים. מבחן אמריקאי כ- 35 שאלות. יש בדיקת שמות, אך אפשר לדבר עם המרצה והוא מוחק חיסורים בלי כל בעיה  </td>
+				<td align=center> <font face=Arial size=2>לא נקבע</font> </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הילה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ג </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ספר איוב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר אסתר אשל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 20.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; לא! לא! לא!<br />
+שומר נפשו (וציונו) ירחק. קוראת שמות באדיקות, משעממת, משעממת, משעממת ומבחן קשה. </td>
+				<td align=center>  <img src="1stars.gif" alt="1 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> עמית </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> מבוא לקבלה </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר דניאל אברהמס </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 29.9.2002 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names1.gif" height=32 width=32 alt="העברת דף"><br><font size=1 color=RoyalBlue face=Arial>העברת דף</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; הייתי מספר לכם על הקורס, אם הייתי נמצא בו... למרות העברת הדף השמי, אין כל בעיה "להיעלם" מהשיעור, או אפילו לא להגיע - רק תמצאו את מי שיסמן אתכם...<br />
+למבחן יש ללמוד המון חומר משעמם ונמרח, והציונים בו סבירים ומטה. הסיבה היחידה שלא נתתי ציון 1 לקורס, היא שהמרצה בכל זאת עזר לי במבחן, אז את מינימום הקרדיט הוא מקבל... </td>
+				<td align=center>  <img src="2stars.gif" alt="2 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> וזאן עדי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> א </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אומנות ואסטטיקה בראי המקורות/תלמוד </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר אדימאל קוסמן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 3.7.2002 </td>
+				<td border=1 ordercolor=royalblue><center> <img src="no_att.gif" alt="אין חובת נוכחות"><br><font size=1 color=RoyalBlue face=Arial>אין חובת  נוכחות</font> </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; קורס מאוד מעניין אין קריאת שמות מבחן קל מאוד , עם חומר פתוח ומאגרי שאלות, שסביר להניח 95% מהמבחן יופיע במאגר. ממליץ בחום  </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+	
+			<tr>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> אורטל </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ב </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> הבית היהודי </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> יהדות </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> ד"ר דב הרמן </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2> 9.5.2001 </td>
+				<td border=1 ordercolor=royalblue><center>  <img src="names2.gif" height=32 width=32 alt="קריאת שמות"><br><font size=1 color=RoyalBlue face=Arial>קריאת שמות</font>  </td>
+				<td border=1 ordercolor=royalblue><font face=Arial size=2>&nbsp; מרצה מדהים. קורס מקסים ומעניין. חובת נוכחות מהרגע שיש לו רשימות מעודכנות ביד ומבחן בינוני (אמריקאי). שווה את המאמץ. נהנתי מכל רגע.  </td>
+				<td align=center>  <img src="5stars.gif" alt="5 כוכבים">  </td>
+			</tr>
+
+			</table>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<!-- Begin Nedstat Basic code -->
+<!-- Title: mikzohot.html -->
+<!-- URL: http://www.ofrahaza.hagai.net/barlogic/recommend.php -->
+<script language="JavaScript" src="http://m1.nedstatbasic.net/basic.js">
+</script>
+<script language="JavaScript">
+<!--
+  nedstatbasic("AB3jQwL5i2gu9iek4x/BwnCubSsA", 0);
+// -->
+</script>
+<noscript>
+<a target=_blank href="http://v1.nedstatbasic.net/stats?AB3jQwL5i2gu9iek4x/BwnCubSsA"><img
+src="http://m1.nedstatbasic.net/n?id=AB3jQwL5i2gu9iek4x/BwnCubSsA"
+border=0 nosave width=0 height=0></a>
+</noscript>
+<!-- End Nedstat Basic code -->
