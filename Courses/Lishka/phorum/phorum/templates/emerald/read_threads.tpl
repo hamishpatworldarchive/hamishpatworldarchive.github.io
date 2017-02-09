@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE read_threads.tpl -->
+﻿<!-- BEGIN TEMPLATE read_threads.tpl -->
 <div class="nav">
     <div class="nav-right">
         <a class="icon icon-prev" href="{MESSAGE->URL->PREV}">{LANG->PreviousMessage}</a>

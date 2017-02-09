@@ -1,4 +1,4 @@
-/* does not use template values on purpose */
+﻿/* does not use template values on purpose */
 
 #phorum #post, #phorum #thread-options, #phorum .nav, #phorum .message-options, #phorum .message-moderation {
     display: none;

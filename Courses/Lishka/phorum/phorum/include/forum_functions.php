@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 function phorum_build_forum_list() {
 

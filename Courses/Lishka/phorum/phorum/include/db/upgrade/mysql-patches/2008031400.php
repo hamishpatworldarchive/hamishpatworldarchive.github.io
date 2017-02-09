@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Create a possibly missing "display_name_source" setting.
 

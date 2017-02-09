@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 $upgrade_queries[]="alter table {$PHORUM['forums_table']} modify description text not null";

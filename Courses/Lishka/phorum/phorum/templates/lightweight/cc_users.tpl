@@ -1,4 +1,4 @@
-<form action="{ACTION}" method="post">
+﻿<form action="{ACTION}" method="post">
     {POST_VARS}
     <table cellspacing="0" class="list">
         <tr>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Initialize some default setting values.
 

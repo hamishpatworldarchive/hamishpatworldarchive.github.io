@@ -1,4 +1,4 @@
-Phorum 5 FAQ
+﻿Phorum 5 FAQ
 ============
 
 Table of contents:

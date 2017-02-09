@@ -1,4 +1,4 @@
-<table cellspacing="0" class="list announcements">
+﻿<table cellspacing="0" class="list announcements">
     <tr>
         <th align="left" colspan="2">
             {LANG->Announcements}

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 // altering the message-table with an index for unapproved messages

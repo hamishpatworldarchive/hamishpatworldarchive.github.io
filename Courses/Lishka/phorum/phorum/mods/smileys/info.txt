@@ -1,4 +1,4 @@
-title: Smileys
+﻿title: Smileys
 desc:  This module allows users to add graphical smileys to their messages.
 author: Phorum Dev Team
 url: http://www.phorum.org/

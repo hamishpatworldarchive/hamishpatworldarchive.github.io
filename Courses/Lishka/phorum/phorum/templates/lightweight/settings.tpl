@@ -1,4 +1,4 @@
-{! --- defines are used by the engine and vars are used by the template --- }
+﻿{! --- defines are used by the engine and vars are used by the template --- }
 
 {! --- How many px to indent for each level --- }
 {DEFINE indentmultiplier 20}

@@ -1,4 +1,4 @@
-<div class="generic">
+﻿<div class="generic">
   {IF BLOCK_TITLE}
     <h4>{BLOCK_TITLE}</h4>
   {/IF}

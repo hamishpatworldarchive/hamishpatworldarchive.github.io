@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // rebuild search-table
 // this script rebuilds the search-table
 

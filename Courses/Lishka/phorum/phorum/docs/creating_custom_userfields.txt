@@ -1,4 +1,4 @@
-Creating custom fields for user profiles
+﻿Creating custom fields for user profiles
 ========================================
 
 *** THIS DOCUMENT IS UNDER DEVELOPMENT, SO IT'S NOT YET COMPLETE ***

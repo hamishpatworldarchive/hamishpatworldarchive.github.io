@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 // This key needs to be rebuilt after we changed the author field

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
   // The definition of the possible uses for a smiley.
   $PHORUM_MOD_SMILEY_USES = array(
       0 => 'N',

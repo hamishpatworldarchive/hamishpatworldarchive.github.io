@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
     $language="English (American)";
     // uncomment this to hide this language from the user-select-box

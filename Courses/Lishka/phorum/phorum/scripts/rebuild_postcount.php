@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 /*
 
 This is just a simple script for updating the post-count of each user, which

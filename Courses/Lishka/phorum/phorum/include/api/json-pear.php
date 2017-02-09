@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // ----------------------------------------------------------------------
 // THIS SCRIPT IS INCLUDED IN THE PHORUM DISTRIBUTION AS A FALLBACK METHOD
 // FOR PHP INSTALLATIONS THAT ARE NOT COMPILED WITH JSON SUPPORT ENABLED.

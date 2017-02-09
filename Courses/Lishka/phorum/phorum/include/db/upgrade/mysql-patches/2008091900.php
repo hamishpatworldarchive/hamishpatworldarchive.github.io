@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $upgrade_queries[]=
     "ALTER TABLE {$PHORUM['message_table']} drop key `user_id`";

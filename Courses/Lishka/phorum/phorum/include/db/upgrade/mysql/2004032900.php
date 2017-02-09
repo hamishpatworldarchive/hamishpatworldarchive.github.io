@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 $upgrade_queries[]="alter table {$PHORUM['private_message_table']} drop KEY read_flag";

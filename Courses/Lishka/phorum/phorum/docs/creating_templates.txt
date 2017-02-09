@@ -1,4 +1,4 @@
-Creating your own Phorum template
+﻿Creating your own Phorum template
 =================================
 
 This documents describes how to create your own template for

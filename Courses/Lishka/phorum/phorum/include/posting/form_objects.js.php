@@ -1,4 +1,4 @@
-// Valid object ids for textarea objects to handle. The first object
+﻿// Valid object ids for textarea objects to handle. The first object
 // that can be matched will be use as the object to work with.
 // This is done to arrange for backward compatibility between
 // Phorum versions.

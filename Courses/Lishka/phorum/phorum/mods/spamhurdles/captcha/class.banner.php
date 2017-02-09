@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 class banner
 {
     function banner($font = "banner.fnt")

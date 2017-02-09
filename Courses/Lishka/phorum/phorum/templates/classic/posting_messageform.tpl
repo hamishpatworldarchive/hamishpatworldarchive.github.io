@@ -1,4 +1,4 @@
-<div class="PhorumStdBlockHeader PhorumNarrowBlock">
+﻿<div class="PhorumStdBlockHeader PhorumNarrowBlock">
   <table class="PhorumFormTable" cellspacing="0" border="0">
     {! A submit button that will be used to catch users pressing enter }
     <script type="text/javascript">

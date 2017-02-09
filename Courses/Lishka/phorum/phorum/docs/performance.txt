@@ -1,4 +1,4 @@
-Phorum 5 performance notes
+﻿Phorum 5 performance notes
 ==========================
 
 Several of Phorum's options have a tradeoff effect: enabling more 

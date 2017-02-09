@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 include_once "./phorum_settings.php";
 

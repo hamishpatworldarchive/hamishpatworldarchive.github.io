@@ -1,4 +1,4 @@
-{IF PREVIEW}
+﻿{IF PREVIEW}
   <div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left;">{LANG->Preview}</div>
   <div class="PhorumStdBlock" style="text-align: left;">
     <div class="PhorumReadBodySubject">{PREVIEW->subject}</div>

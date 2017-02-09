@@ -1,4 +1,4 @@
-<html>
+﻿<html>
   <head>
     <title>BBcode help</title>
     <link rel="stylesheet" type="text/css" href="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/help.css"/>

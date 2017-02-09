@@ -1,4 +1,4 @@
-Preliminary Upgrade-Instructions
+﻿Preliminary Upgrade-Instructions
 ================================
 
 This document describes the Phorum upgrading process. Please keep in mind, 

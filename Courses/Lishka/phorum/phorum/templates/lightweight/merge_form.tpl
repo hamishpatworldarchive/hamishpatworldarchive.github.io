@@ -1,4 +1,4 @@
-<div class="generic">
+﻿<div class="generic">
 
     {IF FORM->merge_none}
         <h4>{LANG->MergeThread}</h4>

@@ -1,4 +1,4 @@
-XSLTPROC=xsltproc
+﻿XSLTPROC=xsltproc
 XSLTPROCOPTS=--novalid
 
 all:

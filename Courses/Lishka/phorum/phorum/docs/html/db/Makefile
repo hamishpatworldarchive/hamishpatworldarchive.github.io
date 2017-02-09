@@ -1,4 +1,4 @@
-FILES="include/db/mysql.php"
+﻿FILES="include/db/mysql.php"
 
 all:
 	(cd ../../..; phpdoc \

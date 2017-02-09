@@ -1,4 +1,4 @@
-<div class="phorum-menu" style="text-align: left; white-space: nowrap">
+﻿<div class="phorum-menu" style="text-align: left; white-space: nowrap">
   {LANG->PrivateMessages}
   <ul>
     {LOOP PM_FOLDERS}

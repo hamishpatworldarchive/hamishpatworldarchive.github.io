@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // functions to make the different feeds
 

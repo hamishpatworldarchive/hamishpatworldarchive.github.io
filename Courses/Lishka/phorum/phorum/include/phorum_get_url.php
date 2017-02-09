@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * This function is used for generating all the Phorum related URL's.
  *

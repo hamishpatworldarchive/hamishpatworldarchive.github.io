@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE index_classic.tpl -->
+﻿<!-- BEGIN TEMPLATE index_classic.tpl -->
 {IF FOLDERS}
     <table cellspacing="0" class="list">
         <tr>

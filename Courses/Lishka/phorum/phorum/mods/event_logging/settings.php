@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Check if we are loaded from the Phorum admin code.
 // Direct access to this file is not allowed.

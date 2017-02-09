@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $upgrade_queries[]=
     "ALTER TABLE {$PHORUM['banlist_table']}

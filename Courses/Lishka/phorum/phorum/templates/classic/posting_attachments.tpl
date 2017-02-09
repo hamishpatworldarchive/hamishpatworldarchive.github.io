@@ -1,4 +1,4 @@
-<div class="PhorumStdBlockHeader PhorumNarrowBlock">
+﻿<div class="PhorumStdBlockHeader PhorumNarrowBlock">
   {IF POSTING->attachments}
     {INCLUDE "posting_attachments_list"}
     {VAR AttachPhrase LANG->AttachAnotherFile}

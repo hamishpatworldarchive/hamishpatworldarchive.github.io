@@ -1,4 +1,4 @@
-{! The doctype declaration, which tells the browser what version of markup }
+﻿{! The doctype declaration, which tells the browser what version of markup }
 {! is used in the document and what character set to use. Leave this }
 {! untouched, unless you know what you are doing. The default doctype }
 {! is targeted at "Standards Mode" in XHTML 1.0 Transitional. For more }

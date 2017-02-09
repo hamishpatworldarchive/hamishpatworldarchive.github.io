@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 (
     // Code CAPTCHA

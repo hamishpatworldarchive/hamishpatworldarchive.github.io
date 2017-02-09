@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 $upgrade_queries[]= 
     "INSERT INTO {$PHORUM["settings_table"]}

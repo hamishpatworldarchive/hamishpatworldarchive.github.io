@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE cc_users.tpl -->
+﻿<!-- BEGIN TEMPLATE cc_users.tpl -->
 <form action="{ACTION}" method="post">
     {POST_VARS}
     <table cellspacing="0" class="list">

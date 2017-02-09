@@ -1,4 +1,4 @@
-<script type="text/javascript">
+﻿<script type="text/javascript">
 var phorum_marked_all = false;
 function phorum_markAllCheckboxes() {
 	var pageform = document.getElementById('fprepost');

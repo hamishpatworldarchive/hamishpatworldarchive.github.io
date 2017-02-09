@@ -1,5 +1,5 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>2.3.4. Supporting multiple languages</title><link rel="stylesheet" href="../phorum_docbook.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.73.2"><link rel="start" href="index.html" title="Phorum Developer Reference Manual"><link rel="up" href="ch02s03.html" title="2.3. Writing your own modules"><link rel="prev" href="ch02s03s03s03.html" title="2.3.3.3. Multiple file modules"><link rel="next" href="ch02s03s05.html" title="2.3.5. Module data storage"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"><a accesskey="p" href="ch02s03s03s03.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ch02s03s05.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="modules.languages"></a>2.3.4. Supporting multiple languages</h3></div></div></div><p>
-        This feature is supported by the <a class="xref" href="ch02s03s03s03.html" title="2.3.3.3. Multiple file modules">multiple file structure</a>.
+ï»¿<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>2.3.4.Â Supporting multiple languages</title><link rel="stylesheet" href="../phorum_docbook.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.73.2"><link rel="start" href="index.html" title="Phorum Developer Reference Manual"><link rel="up" href="ch02s03.html" title="2.3.Â Writing your own modules"><link rel="prev" href="ch02s03s03s03.html" title="2.3.3.3.Â Multiple file modules"><link rel="next" href="ch02s03s05.html" title="2.3.5.Â Module data storage"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"><a accesskey="p" href="ch02s03s03s03.html">Prev</a>Â </td><th width="60%" align="center">Â </th><td width="20%" align="right">Â <a accesskey="n" href="ch02s03s05.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="modules.languages"></a>2.3.4.Â Supporting multiple languages</h3></div></div></div><p>
+        This feature is supported by the <a class="xref" href="ch02s03s03s03.html" title="2.3.3.3.Â Multiple file modules">multiple file structure</a>.
       </p><p>
         If your module includes text that will be displayed to end users,
         you should strongly consider making it support multiple languages.
@@ -24,7 +24,7 @@
         must be named identical to the main language files that Phorum uses.
         To include both English and French, your module would require the
         following file structure:
-        </p><div class="example"><a name="id2501190"></a><p class="title"><b>Example 2.4. Tree structure for a module that supports languages</b></p><div class="example-contents"><pre class="programlisting">
+        </p><div class="example"><a name="id2501190"></a><p class="title"><b>ExampleÂ 2.4.Â Tree structure for a module that supports languages</b></p><div class="example-contents"><pre class="programlisting">
 {phorum dir}/
      |
      +-- mods/
@@ -48,7 +48,7 @@
         other modules or Phorum itself. Here is an example of how you
         could do that:
 
-        </p><div class="example"><a name="id2501212"></a><p class="title"><b>Example 2.5. Custom language file for a module</b></p><div class="example-contents"><pre class="programlisting">
+        </p><div class="example"><a name="id2501212"></a><p class="title"><b>ExampleÂ 2.5.Â Custom language file for a module</b></p><div class="example-contents"><pre class="programlisting">
 &lt;?php
 $PHORUM["DATA"]["LANG"]["mod_foo"] = array(
     "Hello"   =&gt; "Hello!",
@@ -63,7 +63,7 @@ $PHORUM["DATA"]["LANG"]["mod_foo"] = array(
 $PHORUM["DATA"]["LANG"]["mod_foo"]["Hello"]</pre><p>
 
         When you want to use the language string from a template file,
-        the you would use the following <a class="xref" href="ch01s04s03s04.html" title="1.4.3.4. Template variables">template variable</a>:
+        the you would use the following <a class="xref" href="ch01s04s03s04.html" title="1.4.3.4.Â Template variables">template variable</a>:
         </p><pre class="programlisting">
 {LANG-&gt;mod_foo-&gt;Hello}</pre><p>
 
@@ -81,4 +81,4 @@ $PHORUM["DATA"]["LANG"]["mod_foo"]["Hello"]</pre><p>
         no alternative available. Having more text to translate is more
         work for translators and using core language strings helps in
         keeping the used terminology consistent.
-      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch02s03s03s03.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ch02s03.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch02s03s05.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top"> </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> </td></tr></table></div></body></html>
+      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch02s03s03s03.html">Prev</a>Â </td><td width="20%" align="center"><a accesskey="u" href="ch02s03.html">Up</a></td><td width="40%" align="right">Â <a accesskey="n" href="ch02s03s05.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Â </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">Â </td></tr></table></div></body></html>

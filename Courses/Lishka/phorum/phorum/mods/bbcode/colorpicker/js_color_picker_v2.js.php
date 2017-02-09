@@ -1,4 +1,4 @@
-	/************************************************************************************************************
+﻿	/************************************************************************************************************
 	(C) www.dhtmlgoodies.com, October 2005
 	
 	This is a script from www.dhtmlgoodies.com. You will find this and a lot of other scripts at our website.	

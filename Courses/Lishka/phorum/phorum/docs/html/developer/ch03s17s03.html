@@ -1,4 +1,4 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.17.3. user_session_restore</title><link rel="stylesheet" href="../phorum_docbook.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.73.2"><link rel="start" href="index.html" title="Phorum Developer Reference Manual"><link rel="up" href="ch03s17.html" title="3.17. User authentication and session handling"><link rel="prev" href="ch03s17s02.html" title="3.17.2. user_session_create"><link rel="next" href="ch03s17s04.html" title="3.17.4. user_session_destroy"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"><a accesskey="p" href="ch03s17s02.html">Prev</a> </td><th width="60%" align="center"> </th><td width="20%" align="right"> <a accesskey="n" href="ch03s17s04.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="hook.user_session_restore"></a>3.17.3. user_session_restore</h3></div></div></div><p>
+ï»¿<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><title>3.17.3.Â user_session_restore</title><link rel="stylesheet" href="../phorum_docbook.css" type="text/css"><meta name="generator" content="DocBook XSL Stylesheets V1.73.2"><link rel="start" href="index.html" title="Phorum Developer Reference Manual"><link rel="up" href="ch03s17.html" title="3.17.Â User authentication and session handling"><link rel="prev" href="ch03s17s02.html" title="3.17.2.Â user_session_create"><link rel="next" href="ch03s17s04.html" title="3.17.4.Â user_session_destroy"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><td width="20%" align="left"><a accesskey="p" href="ch03s17s02.html">Prev</a>Â </td><th width="60%" align="center">Â </th><td width="20%" align="right">Â <a accesskey="n" href="ch03s17s04.html">Next</a></td></tr></table><hr></div><div class="section" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="hook.user_session_restore"></a>3.17.3.Â user_session_restore</h3></div></div></div><p>
 
 Allow modules to override Phorum's session restore management.
 This hook is the designated hook if you need to let Phorum
@@ -56,7 +56,7 @@ Same as input, possibly with updated array values.
         </strong></span>
       </p><p>
 
-See the <a class="xref" href="ch03s17s02.html" title="3.17.2. user_session_create">???</a> hook for an example
+See the <a class="xref" href="ch03s17s02.html" title="3.17.2.Â user_session_create">???</a> hook for an example
 of how to let Phorum setup the PHP session that is picked up
 in this example hook.
 </p><pre class="programlisting">
@@ -92,4 +92,4 @@ function phorum_mod_foo_user_session_restore($sessions)
 }
 </pre><p>
 
-      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s17s02.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="ch03s17.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="ch03s17s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top"> </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> </td></tr></table></div></body></html>
+      </p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="ch03s17s02.html">Prev</a>Â </td><td width="20%" align="center"><a accesskey="u" href="ch03s17.html">Up</a></td><td width="40%" align="right">Â <a accesskey="n" href="ch03s17s04.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">Â </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top">Â </td></tr></table></div></body></html>

@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE changes.tpl -->
+﻿<!-- BEGIN TEMPLATE changes.tpl -->
 <p>{LANG->Message}: <a href="{MESSAGE->URL->READ}">{MESSAGE->subject}</a></p>
 
 <div class="nav">

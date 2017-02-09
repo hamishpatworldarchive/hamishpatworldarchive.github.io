@@ -1,4 +1,4 @@
-<form id="phorum_listform" action="{URL->ACTION}" method="post">
+﻿<form id="phorum_listform" action="{URL->ACTION}" method="post">
   {POST_VARS}
   <input type="hidden" name="page" value="buddies" />
   <input type="hidden" name="action" value="buddies" />

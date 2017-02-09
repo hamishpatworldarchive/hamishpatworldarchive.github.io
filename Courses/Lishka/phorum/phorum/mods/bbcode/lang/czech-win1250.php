@@ -1,39 +1,39 @@
-<?php
+﻿<?php
 $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Button descriptions.
     'b'             => 'Bold',
-    'i'             => 'Kurz�va',
-    'u'             => 'Podtr�en�',
-    's'             => 'P�e�krtnout',
-    'sub'           => 'Doln� index',
-    'sup'           => 'Horn� index',
-    'color'         => 'Barva p�sma',
-    'size'          => 'Velikost p�sma',
+    'i'             => 'Kurzן¿½va',
+    'u'             => 'Podtrן¿½enן¿½',
+    's'             => 'Pן¿½eן¿½krtnout',
+    'sub'           => 'Dolnן¿½ index',
+    'sup'           => 'Hornן¿½ index',
+    'color'         => 'Barva pן¿½sma',
+    'size'          => 'Velikost pן¿½sma',
     'center'        => 'Vycentrovat text',
-    'url'           => 'Vlo�it odkaz',
-    'email'         => 'Vlo�it emailovou adresu',
-    'img'           => 'Vlo�it odkaz obr�zku',
-    'hr'            => 'Vlo�it horizont�ln� ��ru',
-    'code'          => 'Neform�tovan� text',
-    'quote'         => 'Vlo�it citaci',
+    'url'           => 'Vloן¿½it odkaz',
+    'email'         => 'Vloן¿½it emailovou adresu',
+    'img'           => 'Vloן¿½it odkaz obrן¿½zku',
+    'hr'            => 'Vloן¿½it horizontן¿½lnן¿½ ן¿½ן¿½ru',
+    'code'          => 'Neformן¿½tovanן¿½ text',
+    'quote'         => 'Vloן¿½it citaci',
 
     # The text that is shown in the quote block.
     'quote_title'   => 'Citaci',
 
     # Dialogs and errors.
-    'enter url'     => 'Pros�m, vlo�te adresu odkazu.',
-    'enter url description' => 'Pros�m vlo�te popis odkazu.',
-    'invalid url'   => 'Odkaz je chybn�. M�l by za��nat s http://, https://, ftp:// nebo mailto:',
-    'enter image url' => 'Pros�m vlo�te odkaz na obr�zek, kter� chcete p�idat.',
-    'invalid image url' => 'Chybn� odkaz obr�zku. M�l by za��nat s http://, https:// or ftp://',
-    'enter who you quote' => 'Pros�m, vlo�te jm�no osoby, kter� m� b�t v uvozovk�ch. M�ete tak� nechat pr�zdn�.',
+    'enter url'     => 'Prosן¿½m, vloן¿½te adresu odkazu.',
+    'enter url description' => 'Prosן¿½m vloן¿½te popis odkazu.',
+    'invalid url'   => 'Odkaz je chybnן¿½. Mן¿½l by zaן¿½ן¿½nat s http://, https://, ftp:// nebo mailto:',
+    'enter image url' => 'Prosן¿½m vloן¿½te odkaz na obrן¿½zek, kterן¿½ chcete pן¿½idat.',
+    'invalid image url' => 'Chybnן¿½ odkaz obrן¿½zku. Mן¿½l by zaן¿½ן¿½nat s http://, https:// or ftp://',
+    'enter who you quote' => 'Prosן¿½m, vloן¿½te jmן¿½no osoby, kterן¿½ mן¿½ bן¿½t v uvozovkן¿½ch. Mן¿½ete takן¿½ nechat prן¿½zdnן¿½.',
 
     # For the size picker.
-    'x-large'      => 'Extra velk�',
-    'large'        => 'Velk�',
-    'medium'       => 'St�edn�',
-    'small'        => 'Mal�',
-    'x-small'      => 'Extra mal�',
+    'x-large'      => 'Extra velkן¿½',
+    'large'        => 'Velkן¿½',
+    'medium'       => 'Stן¿½ednן¿½',
+    'small'        => 'Malן¿½',
+    'x-small'      => 'Extra malן¿½',
 
     # For the list type picker.
     'list type b'  => 'Bullets',
@@ -44,12 +44,12 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     'list type I'  => 'Capital Roman numbers',
 
     # Help titles.
-    'bbcode help'  => 'BBcode n�pov�da',
+    'bbcode help'  => 'BBcode nן¿½povן¿½da',
 
     # Color picker tab names and sizes.
     'rgb'          => 'RGB',
-    'named'        => 'N�zvy barev',
-    'slides'       => 'V�b�r',
+    'named'        => 'Nן¿½zvy barev',
+    'slides'       => 'Vן¿½bן¿½r',
     'rgb_size'     => '40',
     'named_size'   => '85',
     'slides_size'  => '70',

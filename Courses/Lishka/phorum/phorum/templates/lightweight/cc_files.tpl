@@ -1,4 +1,4 @@
-{IF ERROR}<div class="attention">{ERROR}</div>{/IF}
+﻿{IF ERROR}<div class="attention">{ERROR}</div>{/IF}
 {IF OKMSG}<div class="information">{OKMSG}</div>{/IF}
 
 <form action="{URL->ACTION}" method="post" enctype="multipart/form-data">

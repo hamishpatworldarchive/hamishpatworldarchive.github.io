@@ -1,4 +1,4 @@
-{IF MAX_PM_MESSAGECOUNT}
+﻿{IF MAX_PM_MESSAGECOUNT}
   <?php
     $avail = $PHORUM['DATA']['PM_SPACE_LEFT'];
     $used = $PHORUM['DATA']['PM_MESSAGECOUNT'];

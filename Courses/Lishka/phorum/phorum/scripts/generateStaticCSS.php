@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /* generateStaticCSS.php
  * this script is meant to be run from the command-line
  * it extracts the CSS-data from the templates and will write it to a static file

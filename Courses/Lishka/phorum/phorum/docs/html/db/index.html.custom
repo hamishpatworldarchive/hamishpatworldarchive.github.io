@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE html 
      PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//FR"
      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
@@ -18,4 +18,5 @@
 		<P>This document is designed to be viewed using the frames feature.
 		If you see this message, you are using a non-frame-capable web client.</P>
 	</NOFRAMES>
-</HTML>
+</HTML>
+

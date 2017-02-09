@@ -1,4 +1,4 @@
-{INCLUDE "pm_folders.formstart"}
+﻿{INCLUDE "pm_folders.formstart"}
   <div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left">{LANG->PMFolderCreate}</div>
   <div class="PhorumStdBlock" style="padding-top: 15px; padding-bottom: 15px">
     <input type="text" name="create_folder_name" value="{CREATE_FOLDER_NAME}" size="20" maxlength="20" />

@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE pm_read.tpl -->
+﻿<!-- BEGIN TEMPLATE pm_read.tpl -->
 <div class="pm">
 
     <h4>{MESSAGE->subject}</h4>

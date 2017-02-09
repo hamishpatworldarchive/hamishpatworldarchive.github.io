@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   {INCLUDE "posting_menu"}
   {IF FORM->merge_none}
     <div class="PhorumStdBlockHeader PhorumNarrowBlock" style="text-align: left;"><span class="PhorumHeadingLeft">{LANG->MergeThread}</span></div>

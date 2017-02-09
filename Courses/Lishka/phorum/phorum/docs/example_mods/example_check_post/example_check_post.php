@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // This module demonstrates how a hook function for the check_post
 // hook could be written.

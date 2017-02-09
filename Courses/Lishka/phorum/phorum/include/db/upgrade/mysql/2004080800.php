@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 $upgrade_queries[]="alter table {$PHORUM['message_table']} add closed tinyint(4) NOT NULL default '0'";

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /* phorum module info
 hook:  user_authenticate|test_user_authenticate

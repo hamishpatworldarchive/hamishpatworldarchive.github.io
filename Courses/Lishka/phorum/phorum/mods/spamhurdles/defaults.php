@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // These are the default settings for the Spam Hurdles module.
 
 if (! isset($GLOBALS["PHORUM"]["mod_spamhurdles"]))

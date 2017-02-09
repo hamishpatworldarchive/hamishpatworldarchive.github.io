@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     if (!defined("PHORUM_ADMIN")) return;
 
     require_once("./mods/spamhurdles/defaults.php");

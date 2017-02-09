@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE pm_folders.tpl -->
+﻿<!-- BEGIN TEMPLATE pm_folders.tpl -->
 <form action="{URL->ACTION}" method="post">
     {POST_VARS}
     <input type="hidden" name="action" value="folders" />

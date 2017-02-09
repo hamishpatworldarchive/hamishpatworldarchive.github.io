@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // A simple helper script that will setup initial module
 // settings in case one of these settings is missing.
 

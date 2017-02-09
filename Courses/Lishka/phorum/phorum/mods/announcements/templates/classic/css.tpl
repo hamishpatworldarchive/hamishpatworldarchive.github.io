@@ -1,4 +1,4 @@
-.phorum-announcements-new {
+﻿.phorum-announcements-new {
     color: #cc0000;
     font-weight: bold;
     font-size: small;

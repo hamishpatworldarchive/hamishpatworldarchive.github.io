@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE follow.tpl -->
+﻿<!-- BEGIN TEMPLATE follow.tpl -->
 <div class="nav">
     {IF URL->INDEX}<a class="icon icon-folder" href="{URL->INDEX}">{LANG->ForumList}</a>{/IF}
     <a class="icon icon-list" href="{URL->LIST}">{LANG->MessageList}</a>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 $upgrade_queries[]="CREATE TABLE {$PHORUM['user_custom_fields_table']} (

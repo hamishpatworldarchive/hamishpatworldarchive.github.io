@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 $upgrade_queries[]="alter table {$PHORUM['files_table']} add column link varchar(10) NOT NULL DEFAULT ''";

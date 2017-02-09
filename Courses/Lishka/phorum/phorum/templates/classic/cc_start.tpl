@@ -1,4 +1,4 @@
-<div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left;">{LANG->PersProfile}</div>
+﻿<div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left;">{LANG->PersProfile}</div>
 <div class="PhorumStdBlock" style="text-align: left;">
   <table class="PhorumFormTable" cellspacing="0" border="0">
     <tr>

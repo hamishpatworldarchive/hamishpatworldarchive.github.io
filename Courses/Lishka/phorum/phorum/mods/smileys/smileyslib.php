@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // A library of common functions and definitions for
 // the smileys mod. This library is only loaded when

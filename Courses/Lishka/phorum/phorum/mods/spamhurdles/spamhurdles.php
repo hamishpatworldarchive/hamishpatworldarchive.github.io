@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if (!defined("PHORUM")) return;
 
 require_once("./mods/spamhurdles/lib/iscramble.php");

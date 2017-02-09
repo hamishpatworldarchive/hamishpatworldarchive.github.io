@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     // This include file will feed the "spoken_captcha" field from a 
     // generated CAPTCHA to a speech synthesizer and send the resulting
     // audio file to the browser. It is included from the module script

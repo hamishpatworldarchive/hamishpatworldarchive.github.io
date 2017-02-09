@@ -1,4 +1,4 @@
-<div class="PhorumStdBlockHeader" style="text-align: left;">
+﻿<div class="PhorumStdBlockHeader" style="text-align: left;">
   <span class="PhorumNavHeading PhorumHeadingLeft">{LANG->Preview}:</span>&nbsp;{LANG->PreviewExplain}
 </div>
 <div class="PhorumStdBlock" style="text-align: left">

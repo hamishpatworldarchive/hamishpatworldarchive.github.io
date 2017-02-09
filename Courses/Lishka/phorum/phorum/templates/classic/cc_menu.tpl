@@ -1,4 +1,4 @@
-<div class="phorum-menu" style="text-align: left;">
+﻿<div class="phorum-menu" style="text-align: left;">
   {LANG->PersProfile}
   <ul>
     <li><a {IF PROFILE->PANEL "summary"}class="phorum-current-page" {/IF}href="{URL->CC0}">{LANG->ViewProfile}</a></li>

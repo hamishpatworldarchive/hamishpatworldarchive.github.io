@@ -1,4 +1,4 @@
-<table class="phorum-announcements-table">
+﻿<table class="phorum-announcements-table">
   <tr>
     <th align="left">
       {LANG->Announcements}

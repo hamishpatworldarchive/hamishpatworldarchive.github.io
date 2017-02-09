@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   {INCLUDE "posting_menu"}
   <form method="POST" action="{URL->ACTION}">
     {POST_VARS}

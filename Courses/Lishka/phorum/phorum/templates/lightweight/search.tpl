@@ -1,4 +1,4 @@
-{IF SEARCH->noresults}
+﻿{IF SEARCH->noresults}
     <div class="information">
         <h4>{LANG->NoResults}</h4>
         <p>{LANG->NoResultsHelp}</p>

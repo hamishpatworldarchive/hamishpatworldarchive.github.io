@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // rebuild path info
 // this script rebuilds the path info data for all forums 
 

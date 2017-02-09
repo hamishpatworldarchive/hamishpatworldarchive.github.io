@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Find orphaned messages in newflags
 $res = phorum_db_interact(

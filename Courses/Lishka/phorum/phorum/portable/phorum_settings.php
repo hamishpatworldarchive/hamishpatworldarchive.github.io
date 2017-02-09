@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // needed to really load the alternate db-config in common.php
 define("PHORUM_WRAPPER",1);
 

@@ -1,4 +1,4 @@
-function baseConverter (number,ob,nb) {
+﻿function baseConverter (number,ob,nb) {
 	number = number + "";
 	number = number.toUpperCase();
 	var list = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";

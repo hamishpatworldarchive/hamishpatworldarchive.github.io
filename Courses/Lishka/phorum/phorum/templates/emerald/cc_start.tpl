@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE cc_start.tpl -->
+﻿<!-- BEGIN TEMPLATE cc_start.tpl -->
 <div class="generic">
     <dl>
         <dt>{LANG->Username}:</dt>

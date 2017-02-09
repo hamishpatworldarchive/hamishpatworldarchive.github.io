@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 ///////////////////////////////////////////////////////////////////////////////
 //                                                                           //
 // Copyright (C) 2008  Phorum Development Team                               //
@@ -97,7 +97,7 @@ function phorum_mod_bbcode_format($data)
         // "[" character in the body by now.
         if (strpos($body, '[') !== FALSE)
         {
-            // Tokenize the body code.·
+            // Tokenize the body code.ֲ·
             $tokens = bbcode_api_tokenize($body);
 
             // Render the tokens into an HTML page.

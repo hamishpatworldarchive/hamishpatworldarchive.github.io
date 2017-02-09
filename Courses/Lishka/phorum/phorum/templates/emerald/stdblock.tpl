@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE stdblock.tpl -->
+﻿<!-- BEGIN TEMPLATE stdblock.tpl -->
 <div class="generic">
   {IF BLOCK_TITLE}
     <h4>{BLOCK_TITLE}</h4>

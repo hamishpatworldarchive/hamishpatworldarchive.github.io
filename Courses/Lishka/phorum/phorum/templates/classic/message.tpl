@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <div class="PhorumNavBlock PhorumNarrowBlock" style="text-align: left;">
     <span class="PhorumNavHeading">{LANG->Goto}:</span>&nbsp;<a class="PhorumNavLink" href="{URL->INDEX}">{LANG->ForumList}</a>{IF URL->LIST}&bull;<a class="PhorumNavLink" href="{URL->LIST}">{LANG->MessageList}</a>{/IF}&bull;<a class="PhorumNavLink" href="{URL->SEARCH}">{LANG->Search}</a>&bull;{INCLUDE "loginout_menu"}
   </div>

@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE posting.tpl -->
+﻿<!-- BEGIN TEMPLATE posting.tpl -->
 {IF REPLY_ON_READ}
 <a name="REPLY"></a>
 {/IF}

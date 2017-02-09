@@ -1,4 +1,4 @@
-title: Username Restrictions
+﻿title: Username Restrictions
 desc: This module implements configurable features for enforcing user name restrictions. The module will check the user name at registration time and show an error to the user if the new username does not meet the restrictions.
 version: 1.0.2
 author: Phorum Dev Team

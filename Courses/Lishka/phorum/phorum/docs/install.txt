@@ -1,4 +1,4 @@
-Phorum 5 Installation instructions
+﻿Phorum 5 Installation instructions
 ==================================
 
 Contents:

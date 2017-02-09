@@ -1,26 +1,26 @@
-<?php
+ï»¿<?php
 /**
- * PHPMailer dil dosyasý.
- * Türkçe Versiyonu
- * ÝZYAZILIM - Elçin Özel - Can Yýlmaz - Mehmet Benlioðlu
+ * PHPMailer dil dosyasâ€Ž.
+ * Tï¢•rk×—e Versiyonu
+ * ï¢‘ZYAZILIM - El×—in ×²zel - Can Yâ€Žlmaz - Mehmet Benlio× lu
  */
 
 $PHPMAILER_LANG = array();
 
-$PHPMAILER_LANG["provide_address"]      = 'En az bir tane mail adresi belirtmek zorundasýnýz ' .
-                                          'alýcýnýn email adresi.';
+$PHPMAILER_LANG["provide_address"]      = 'En az bir tane mail adresi belirtmek zorundasâ€Žnâ€Žz ' .
+                                          'alâ€Žcâ€Žnâ€Žn email adresi.';
 $PHPMAILER_LANG["mailer_not_supported"] = ' mailler desteklenmemektedir.';
-$PHPMAILER_LANG["execute"]              = 'Çalýþtýrýlamýyor: ';
-$PHPMAILER_LANG["instantiate"]          = 'Örnek mail fonksiyonu yaratýlamadý.';
-$PHPMAILER_LANG["authenticate"]         = 'SMTP Hatasý: Doðrulanamýyor.';
-$PHPMAILER_LANG["from_failed"]          = 'Baþarýsýz olan gönderici adresi: ';
-$PHPMAILER_LANG["recipients_failed"]    = 'SMTP Hatasý:  ' .
-                                          'alýcýlara ulaþmadý: ';
-$PHPMAILER_LANG["data_not_accepted"]    = 'SMTP Hatasý: Veri kabul edilmedi.';
-$PHPMAILER_LANG["connect_host"]         = 'SMTP Hatasý: SMTP hosta baðlanýlamýyor.';
-$PHPMAILER_LANG["file_access"]          = 'Dosyaya eriþilemiyor: ';
-$PHPMAILER_LANG["file_open"]            = 'Dosya Hatasý: Dosya açýlamýyor: ';
-$PHPMAILER_LANG["encoding"]             = 'Bilinmeyen þifreleme: ';
+$PHPMAILER_LANG["execute"]              = 'Ö·alâ€Žâ€tâ€Žrâ€Žlamâ€Žyor: ';
+$PHPMAILER_LANG["instantiate"]          = '×²rnek mail fonksiyonu yaratâ€Žlamadâ€Ž.';
+$PHPMAILER_LANG["authenticate"]         = 'SMTP Hatasâ€Ž: Do× rulanamâ€Žyor.';
+$PHPMAILER_LANG["from_failed"]          = 'Baâ€arâ€Žsâ€Žz olan g×¦nderici adresi: ';
+$PHPMAILER_LANG["recipients_failed"]    = 'SMTP Hatasâ€Ž:  ' .
+                                          'alâ€Žcâ€Žlara ulaâ€madâ€Ž: ';
+$PHPMAILER_LANG["data_not_accepted"]    = 'SMTP Hatasâ€Ž: Veri kabul edilmedi.';
+$PHPMAILER_LANG["connect_host"]         = 'SMTP Hatasâ€Ž: SMTP hosta ba× lanâ€Žlamâ€Žyor.';
+$PHPMAILER_LANG["file_access"]          = 'Dosyaya eriâ€ilemiyor: ';
+$PHPMAILER_LANG["file_open"]            = 'Dosya Hatasâ€Ž: Dosya a×—â€Žlamâ€Žyor: ';
+$PHPMAILER_LANG["encoding"]             = 'Bilinmeyen â€ifreleme: ';
 $PHPMAILER_LANG["signing"]              = 'Signing Error: ';
 
 ?>

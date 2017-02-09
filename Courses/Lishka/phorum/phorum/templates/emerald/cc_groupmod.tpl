@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE cc_groupmod.tpl -->
+﻿<!-- BEGIN TEMPLATE cc_groupmod.tpl -->
 {IF ERROR}<div class="attention">{ERROR}</div>{/IF}
 {IF OKMSG}<div class="information">{OKMSG}</div>{/IF}
 

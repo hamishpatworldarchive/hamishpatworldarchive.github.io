@@ -1,4 +1,4 @@
-Customizing your Phorum mail messages
+﻿Customizing your Phorum mail messages
 =====================================
 
 This document describes the way you can customize the mail messages

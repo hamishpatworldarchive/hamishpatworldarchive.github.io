@@ -1,16 +1,16 @@
-<?php
+ï»¿<?php
 $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 (
     // Code CAPTCHA
-    "CaptchaTitle" => "Spam koruması:",
-    "CaptchaExplain" => "Lütfen aşağıdaki kodu giriniz. Bu koruma otomatik hesap açan botlar için geliştirilmiştir.",
-    "CaptchaUnclearExplain" => "Eğer kodu okumakta zorlanıyorsanız, sadece tahmin edin. Eğer yanlış kod girerseniz, yeniden girmeniz için yeni bir kod yaratılacaktır.",
-    "CaptchaSpoken" => "Kodu konuşma formunda dinle. (Not: Konuşma formu ingilizcedir.)",
+    "CaptchaTitle" => "Spam korumasâ€:",
+    "CaptchaExplain" => "Lï¢•tfen aâ€a× â€daki kodu giriniz. Bu koruma otomatik hesap a×—an botlar i×—in geliâ€tirilmiâ€tir.",
+    "CaptchaUnclearExplain" => "E× er kodu okumakta zorlanâ€yorsanâ€z, sadece tahmin edin. E× er yanlâ€â€ kod girerseniz, yeniden girmeniz i×—in yeni bir kod yaratâ€lacaktâ€r.",
+    "CaptchaSpoken" => "Kodu konuâ€ma formunda dinle. (Not: Konuâ€ma formu ingilizcedir.)",
     "CaptchaFieldLabel" => "Kodu Gir: ",
-    "CaptchaWrongCode" => "Kodu verildiği gibi girmediniz. Lütfen tekrar deneyiniz.",
+    "CaptchaWrongCode" => "Kodu verildi× i gibi girmediniz. Lï¢•tfen tekrar deneyiniz.",
 
     // Mathematical CAPTCHA
-    "MaptchaTitle" => "Spam koruması:",
+    "MaptchaTitle" => "Spam korumasâ€:",
     "MaptchaExplain" => "Please, solve the mathematical question and enter the answer in the input field below. This is for blocking bots that try to post this form automatically.",
     "MaptchaQuestion" => "Question: how much is {NUMBER1} plus {NUMBER2}?",
     "MaptchaSpoken" => "Listen to this question in spoken form.",
@@ -18,15 +18,15 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
     "MaptchaWrongAnswer" => "You did not provide the correct answer for the spam prevention question. Please try again.",
 
     // Javascript CAPTCHA.
-    "JavascriptCaptchaNoscript" => "[Lütfen tarayıcınızın JavaScript seçeneğini aktif hale getiriniz.]",
+    "JavascriptCaptchaNoscript" => "[Lï¢•tfen tarayâ€câ€nâ€zâ€n JavaScript se×—ene× ini aktif hale getiriniz.]",
 
     // Generic message when a block was hit, but the user is still allowed
     // to post an automatically unapproved message.
-    "PostingUnapproveError" => "Anti-spam yazılımı mesajınızın spam olabileceğini algıladı. Bu mesajı halen gönderebilirsiniz, fakat forum yöneticileri mesajı onaylamadan diğer kullanıcılar tarafından görüntülenemeyecektir.",
+    "PostingUnapproveError" => "Anti-spam yazâ€lâ€mâ€ mesajâ€nâ€zâ€n spam olabilece× ini algâ€ladâ€. Bu mesajâ€ halen g×¦nderebilirsiniz, fakat forum y×¦neticileri mesajâ€ onaylamadan di× er kullanâ€câ€lar tarafâ€ndan g×¦rï¢•ntï¢•lenemeyecektir.",
 
     // Generic message when blocking a message. We do not want to
     // feed specific blocking reasons to those who are blocked, because
     // that info might be used to bypass the blocking reasons.
-    "BlockError" => "Anti-spam yazılımı mesajınızın spam olabileceğini algıladı. Bu yüzden mesajınız engellendi. Eğer mesajınız bir spam değilse bunun için özür dileriz. Eğer mesajınızın bloklanması ile ilgili halen bir sorun yaşıyorsanız, lütfen site yöneticileri ile temasa geçiniz.<br/><br/><b>Not</b>: Eğer tarayıcınızda JavaScript özelliğini iptal ettiyseniz ya da tarayıcınız JavaScript desteklemiyor ise sebep bu olabilir. Bazı anti-spam koruması gerekçeleri JavaScript ile alakalıdır.",
+    "BlockError" => "Anti-spam yazâ€lâ€mâ€ mesajâ€nâ€zâ€n spam olabilece× ini algâ€ladâ€. Bu yï¢•zden mesajâ€nâ€z engellendi. E× er mesajâ€nâ€z bir spam de× ilse bunun i×—in ×¦zï¢•r dileriz. E× er mesajâ€nâ€zâ€n bloklanmasâ€ ile ilgili halen bir sorun yaâ€â€yorsanâ€z, lï¢•tfen site y×¦neticileri ile temasa ge×—iniz.<br/><br/><b>Not</b>: E× er tarayâ€câ€nâ€zda JavaScript ×¦zelli× ini iptal ettiyseniz ya da tarayâ€câ€nâ€z JavaScript desteklemiyor ise sebep bu olabilir. Bazâ€ anti-spam korumasâ€ gerek×—eleri JavaScript ile alakalâ€dâ€r.",
 );
 ?>

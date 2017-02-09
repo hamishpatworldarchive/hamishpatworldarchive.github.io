@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 function phorum_mod_username_restrictions_before_register($data)
 {

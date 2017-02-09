@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 $upgrade_queries[]= "CREATE TABLE {$PHORUM["pm_buddies_table"]} ( 

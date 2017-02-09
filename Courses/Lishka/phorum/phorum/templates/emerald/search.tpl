@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE search.tpl -->
+﻿<!-- BEGIN TEMPLATE search.tpl -->
 {IF SEARCH->noresults}
     <div class="information">
         <h4>{LANG->NoResults}</h4>

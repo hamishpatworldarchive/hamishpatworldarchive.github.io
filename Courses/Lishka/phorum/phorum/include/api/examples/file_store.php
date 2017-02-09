@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 # Store a personal file for a user.
 
 if (!defined('PHORUM')) return;

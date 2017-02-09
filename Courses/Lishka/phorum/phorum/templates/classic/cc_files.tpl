@@ -1,4 +1,4 @@
-<form action="{URL->ACTION}" method="POST" enctype="multipart/form-data">
+﻿<form action="{URL->ACTION}" method="POST" enctype="multipart/form-data">
   <div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left;">{LANG->UploadFile}</div>
   {POST_VARS}
   <div class="PhorumStdBlock PhorumFloatingText" style="text-align: left;">

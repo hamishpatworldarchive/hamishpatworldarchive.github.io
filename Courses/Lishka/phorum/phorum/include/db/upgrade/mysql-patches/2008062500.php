@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $upgrade_queries[]=
     " ALTER TABLE {$PHORUM['user_table']} CHANGE `tz_offset` 

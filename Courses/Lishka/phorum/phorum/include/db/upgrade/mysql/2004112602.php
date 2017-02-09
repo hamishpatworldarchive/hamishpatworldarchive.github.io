@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 /*
 ALTER TABLE {$PHORUM['user_table']} ADD `show_signature` TINYINT( 1 ) DEFAULT '0' NOT NULL ,

@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE split_form.tpl -->
+﻿<!-- BEGIN TEMPLATE split_form.tpl -->
 <div class="generic">
     <h4>{LANG->SplitThread}</h4>
     <form method="POST" action="{URL->ACTION}">

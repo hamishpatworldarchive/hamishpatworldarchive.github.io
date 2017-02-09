@@ -1,4 +1,4 @@
-{IF BUDDYCOUNT}
+﻿{IF BUDDYCOUNT}
     <form id="phorum-pm-list" action="{URL->ACTION}" method="post">
         {POST_VARS}
         <input type="hidden" name="page" value="buddies" />

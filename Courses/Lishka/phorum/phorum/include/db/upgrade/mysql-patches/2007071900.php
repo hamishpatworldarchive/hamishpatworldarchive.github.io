@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 // Refresh all forum statistics for making bringing thread_count up to date.

@@ -1,4 +1,4 @@
-<form action="{URL->ACTION}" method="POST">
+﻿<form action="{URL->ACTION}" method="POST">
     {POST_VARS}
     <div class="generic">
         {LANG->Activity}&nbsp;

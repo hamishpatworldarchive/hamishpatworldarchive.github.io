@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE read_hybrid.tpl -->
+﻿<!-- BEGIN TEMPLATE read_hybrid.tpl -->
 <div class="nav">
     {INCLUDE "paging"}
     <!-- CONTINUE TEMPLATE read_hybrid.tpl -->

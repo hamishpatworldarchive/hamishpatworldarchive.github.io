@@ -1,4 +1,4 @@
-{IF NOT PRINTVIEW}
+﻿{IF NOT PRINTVIEW}
   <div class="PhorumNavBlock" style="text-align: left;">
     <div style="float: right;">
       <span class="PhorumNavHeading">{LANG->GotoThread}:</span>&nbsp;<a class="PhorumNavLink" href="{URL->NEWERTHREAD}">{LANG->PrevPage}</a>&bull;<a class="PhorumNavLink" href="{URL->OLDERTHREAD}">{LANG->NextPage}</a>

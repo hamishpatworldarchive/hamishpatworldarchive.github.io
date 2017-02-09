@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // rebuild thread info
 // this script rebuilds the thread info data for all threads 
 

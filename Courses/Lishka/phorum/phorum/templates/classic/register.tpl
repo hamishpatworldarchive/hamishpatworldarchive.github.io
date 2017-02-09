@@ -1,4 +1,4 @@
-{IF ERROR}
+﻿{IF ERROR}
   <div class="PhorumUserError">{ERROR}</div>
 {/IF}
 <div align="center">

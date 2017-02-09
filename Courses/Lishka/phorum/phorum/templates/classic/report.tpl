@@ -1,4 +1,4 @@
-{IF ReportPostMessage}
+﻿{IF ReportPostMessage}
   <div class="PhorumUserError">{ReportPostMessage}</div>
 {/IF}
 <div class="PhorumNavBlock" style="text-align: left;">

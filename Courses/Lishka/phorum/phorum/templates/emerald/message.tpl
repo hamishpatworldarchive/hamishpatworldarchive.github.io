@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE message.tpl -->
+﻿<!-- BEGIN TEMPLATE message.tpl -->
 {IF ERROR}<div class="attention">{ERROR}</div>{/IF}
 {IF OKMSG}
     <div class="information">

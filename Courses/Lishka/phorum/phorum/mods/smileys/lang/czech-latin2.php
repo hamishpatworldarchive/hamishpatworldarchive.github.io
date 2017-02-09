@@ -1,8 +1,8 @@
-<?php
+ï»¿<?php
 $PHORUM["DATA"]["LANG"]["mod_smileys"] = array(
-    'smiley'        => 'Vlo§it smajl¡ka',
-    'subjectsmiley' => 'Vlo§it smajl¡ka do pýedmØtu',
-    'smileys help'  => 'Smajl¡ky n povØda',
+    'smiley'        => 'VloÂ§it smajlÂ¡ka',
+    'subjectsmiley' => 'VloÂ§it smajlÂ¡ka do pâ€Žedm×´tu',
+    'smileys help'  => 'SmajlÂ¡ky nÂ pov×´da',
 
     # Text for the smileys disable option in the posting editor.
     'disable'      => 'Disable smileys for this message'

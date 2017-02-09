@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // The length for the CAPTCHA codes that we generate.
 define("CAPTCHA_CODE_LENGTH", 5);

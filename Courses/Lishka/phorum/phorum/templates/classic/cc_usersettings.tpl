@@ -1,4 +1,4 @@
-{IF ERROR}<div class="PhorumUserError">{ERROR}</div>{/IF}
+﻿{IF ERROR}<div class="PhorumUserError">{ERROR}</div>{/IF}
 {IF OKMSG}<div class="PhorumOkMsg">{OKMSG}</div>{/IF}
 <form action="{URL->ACTION}" method="POST">
   <div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left;">{HEADING}</div>

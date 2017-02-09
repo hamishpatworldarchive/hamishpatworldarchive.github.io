@@ -1,111 +1,111 @@
-<html>
+ï»¿<html>
   <head>
-    <title>BBcode nápovìda</title>
+    <title>BBcode n×‘pov×œda</title>
     <link rel="stylesheet" type="text/css" href="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/help.css"/>
   </head>
   <body>
-    <h2>BBcode nápovìda</h2>
+    <h2>BBcode n×‘pov×œda</h2>
 
-    BBcode je zkratka pro "Bulletin Board code". Jedná se o jazyk se znaky, kterı mùe bıt pouit pro fórum
-		k formátování zpráv. Tato nápovìda popisuje, jak mùe bıt BBCode uíváno  v tomto fóru.
+    BBcode je zkratka pro "Bulletin Board code". Jedn×‘ se o jazyk se znaky, kterâ€ m×©Âe bâ€t pouÂit pro f×£rum
+		k form×‘tov×‘n× zpr×‘v. Tato n×‘pov×œda popisuje, jak m×©Âe bâ€t BBCode uÂ×v×‘no  v tomto f×£ru.
 
-    <h3>Tuènı text: [b]...[/b]<br/>
-        Podtrenı text: [u]...[/u]<br/>
-        Kurzíva: [i]...[/i]<br/>
-        Pøeškrtnutı text: [s]...[/s]<br/>
+    <h3>Tu×˜nâ€ text: [b]...[/b]<br/>
+        PodtrÂenâ€ text: [u]...[/u]<br/>
+        Kurz×va: [i]...[/i]<br/>
+        P×¨eÂškrtnutâ€ text: [s]...[/s]<br/>
         </h3>
 
-		Tyto znaèky mùete pouít ke zmìne stylu èástí textu.
-    Pøíklady:<br/><br/>
+		Tyto zna×˜ky m×©Âete pouÂ×t ke zm×œne stylu ×˜×‘st× textu.
+    P×¨×klady:<br/><br/>
     <tt>
-    [b]Tento text je tuènı[/b]<br/>
-    [i]Tento text je kurzívou[/i]<br/>
-    [u]Tento text je podtrenı[/u]<br/>
-    [s]Tento text je pøeškrtnutı[/s]<br/>
-    [b][i]Tento text[/i] je [s]kombinovanı[/s] kombinovanı[/b]
+    [b]Tento text je tu×˜nâ€[/b]<br/>
+    [i]Tento text je kurz×vou[/i]<br/>
+    [u]Tento text je podtrÂenâ€[/u]<br/>
+    [s]Tento text je p×¨eÂškrtnutâ€[/s]<br/>
+    [b][i]Tento text[/i] je [s]kombinovanâ€[/s] kombinovanâ€[/b]
     </tt><br/><br/>
-    Pøíklad se zobrazí takto:<br/><br/>
-    <b>Tento text je tuènı</b><br/>
-    <i>Tento text je kurzívou</i><br/>
-    <u>Tento text je podtrenı</u><br/>
-    <strike>Tento text je pøeškrtnutı</strike><br/>
-    <b><i>Tento text</i> je <strike>kombinovanı</strike> kombinovanı</b>
+    P×¨×klad se zobraz× takto:<br/><br/>
+    <b>Tento text je tu×˜nâ€</b><br/>
+    <i>Tento text je kurz×vou</i><br/>
+    <u>Tento text je podtrÂenâ€</u><br/>
+    <strike>Tento text je p×¨eÂškrtnutâ€</strike><br/>
+    <b><i>Tento text</i> je <strike>kombinovanâ€</strike> kombinovanâ€</b>
 
 
-    <h3>Horní index: [sup]...[/sup]<br/>Dolní index: [sub]...[/sub] </h3>
-    Pouitím tìchto znaèek se èást textu zobrazí jako index.
-    "2<sup>4</sup> = 16" or "H<sub>2</sub>O". Pøíklad:<br/><br/>
+    <h3>Horn× index: [sup]...[/sup]<br/>Doln× index: [sub]...[/sub] </h3>
+    PouÂit×m t×œchto zna×˜ek se ×˜×‘st textu zobraz× jako index.
+    "2<sup>4</sup> = 16" or "H<sub>2</sub>O". P×¨×klad:<br/><br/>
     <tt>
-    [sup]Horní index[/sup] normální [sub]dolní index[/sub]
+    [sup]Horn× index[/sup] norm×‘ln× [sub]doln× index[/sub]
     </tt><br/><br/>
 
-		Pøíklad se zobrazí takto:<br/><br/>
-    <sup>Horní index</sup> normální <sub>dolní index</sub>
+		P×¨×klad se zobraz× takto:<br/><br/>
+    <sup>Horn× index</sup> norm×‘ln× <sub>doln× index</sub>
 
-    <h3>Barva písma: [color=...]...[/color]</h3>
-		Tato znaèka se mùe pouít pro barevné odlišení èástí textu.
-    Barva musí bıt ve tvaru platném pro jazyk HTML (napø. "blue", "red",
-    "#ff0000", "#888", etc.). Pøíklad:<br/><br/>
+    <h3>Barva p×sma: [color=...]...[/color]</h3>
+		Tato zna×˜ka se m×©Âe pouÂ×t pro barevn×™ odliÂšen× ×˜×‘st× textu.
+    Barva mus× bâ€t ve tvaru platn×™m pro jazyk HTML (nap×¨. "blue", "red",
+    "#ff0000", "#888", etc.). P×¨×klad:<br/><br/>
     <tt>
-    Kdo by se obával
-    <nobr>[color=red]èervené[/color],</nobr>
-    <nobr>[color=#eeaa00]luté[/color]</nobr> a
-    <nobr>[color=#30f]modré[/color]?</nobr>
+    Kdo by se ob×‘val
+    <nobr>[color=red]×˜erven×™[/color],</nobr>
+    <nobr>[color=#eeaa00]Âlut×™[/color]</nobr> a
+    <nobr>[color=#30f]modr×™[/color]?</nobr>
     </tt><br/><br/>
-		Pøíklad se zobrazí takto:<br/><br/>
-    Kdo by se obával
-    <span style="color: red">èervené</span>,
-    <span style="color: #eeaa00">luté</span> a
-    <span style="color: #30F">modré</span>?
+		P×¨×klad se zobraz× takto:<br/><br/>
+    Kdo by se ob×‘val
+    <span style="color: red">×˜erven×™</span>,
+    <span style="color: #eeaa00">Âlut×™</span> a
+    <span style="color: #30F">modr×™</span>?
 
-    <h3>Velikost písma: [size=...]...[/size]</h3>
-		Tato znaèka se mùe pouít pro zmìnu velikosti písma èástí textu.
-    Velikost musí bıt ve tvaru platném pro jazyk HTML (napø. "12px",
-    "small", "large", etc.). Pøíklad:<br/><br/>
+    <h3>Velikost p×sma: [size=...]...[/size]</h3>
+		Tato zna×˜ka se m×©Âe pouÂ×t pro zm×œnu velikosti p×sma ×˜×‘st× textu.
+    Velikost mus× bâ€t ve tvaru platn×™m pro jazyk HTML (nap×¨. "12px",
+    "small", "large", etc.). P×¨×klad:<br/><br/>
     <tt>
     <nobr>[size=x-small]To[/size]</nobr>
-    <nobr>[size=small]vypadá[/size]</nobr>
+    <nobr>[size=small]vypad×‘[/size]</nobr>
     <nobr>[size=medium]jako,[/size]</nobr>
-    <nobr>[size=large]e[/size]</nobr>
+    <nobr>[size=large]Âe[/size]</nobr>
     <nobr>[size=x-large]rostu![/size]</nobr>
     </tt><br/><br/>
-    Pøíklad se zobrazí takto:<br/><br/>
+    P×¨×klad se zobraz× takto:<br/><br/>
     <span style="font-size: x-small">To</span>
-    <span style="font-size: small">vypadá</span>
+    <span style="font-size: small">vypad×‘</span>
     <span style="font-size: medium">jako,</span>
-    <span style="font-size: large">e</span>
+    <span style="font-size: large">Âe</span>
     <span style="font-size: x-large">rostu!</span>
 
-    <h3>Centrovanı text: [center]...[/center]</h3>
-    Znaèka se mùe pouít pro vycentrování èástí textu.
-		Pøíklad:<br/><br/>
+    <h3>Centrovanâ€ text: [center]...[/center]</h3>
+    Zna×˜ka se m×©Âe pouÂ×t pro vycentrov×‘n× ×˜×‘st× textu.
+		P×¨×klad:<br/><br/>
     <tt>
-    [center]Jsem rád uprostøed toho všeho[/center]
+    [center]Jsem r×‘d uprost×¨ed toho vÂšeho[/center]
     </tt><br/><br/>
-    Pøíklad se zobrazí takto:<br/><br/>
-    <center>Jsem rád uprostøed toho všeho</center>
+    P×¨×klad se zobraz× takto:<br/><br/>
+    <center>Jsem r×‘d uprost×¨ed toho vÂšeho</center>
 
-    <h3>Odkaz na obrázek: [img]...[/img]<br/>
-        Odkaz na stránku: [url]...[/url] or [url=...]...[/url]<br/>
+    <h3>Odkaz na obr×‘zek: [img]...[/img]<br/>
+        Odkaz na str×‘nku: [url]...[/url] or [url=...]...[/url]<br/>
         Odkaz na emailovou adresu [email]...[/email]</h3>
-    Tytro znaèky jsou pro odkazy na zdroje z internetu.
-		Zde jsou nìjaké pøíklady:<br/><br/>
+    Tytro zna×˜ky jsou pro odkazy na zdroje z internetu.
+		Zde jsou n×œjak×™ p×¨×klady:<br/><br/>
     <tt>
     [img]http://www.somesite.com/cool/thumbsup.gif[/img]<br/>
     [url]http://www.phorum.org[/url]<br/>
-    [url=http://www.phorum.org]Navštivte Phorum.org![/url]<br/>
+    [url=http://www.phorum.org]NavÂštivte Phorum.org![/url]<br/>
     [email]someuser@somesite.com[/email]
     </tt></br></br>
-    Pøíklady se zobrazí takto:<br/><br/>
+    P×¨×klady se zobraz× takto:<br/><br/>
     <img src="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/bbcode/help/thumbsup.gif" border="0"/><br/>
     [<a href="http://www.phorum.org">www.phorum.org</a>]<br/>
-    <a rel="nofollow" href="http://www.phorum.org">Navštivte Phorum.org!</a><br/>
+    <a rel="nofollow" href="http://www.phorum.org">NavÂštivte Phorum.org!</a><br/>
     <a href="mailto:someuser@somesite.com">someuser@somesite.com</a>
 
-    <h3>Formátovanı kód, písmo se stejnou rozteèí: [code]...[/code]</h3>
-    V nìkterıch pøípadech jako ASCII art, programovı kód, tabulky akordù, atd.,
-		mùete ve zprávì potøebovat text, kterı vyaduje pouití této znaèky.
-		Pøíklad:
+    <h3>Form×‘tovanâ€ k×£d, p×smo se stejnou rozte×˜×: [code]...[/code]</h3>
+    V n×œkterâ€ch p×¨×padech jako ASCII art, programovâ€ k×£d, tabulky akord×©, atd.,
+		m×©Âete ve zpr×‘v×œ pot×¨ebovat text, kterâ€ vyÂaduje pouÂit× t×™to zna×˜ky.
+		P×¨×klad:
 <pre>
 [code]
  _____  _
@@ -117,7 +117,7 @@
 [/code]
 </pre>
 
-Bez znaèky [code] dojde ke zhroucení formátovaného textu, jako zde:
+Bez zna×˜ky [code] dojde ke zhroucen× form×‘tovan×™ho textu, jako zde:
 <br/><br/>
   _____  _                                <br/>
  |  __ \| |                               <br/>
@@ -126,7 +126,7 @@ Bez znaèky [code] dojde ke zhroucení formátovaného textu, jako zde:
  | |    | | | | (_) | |  | |_| | | | | | |<br/>
  |_|    |_| |_|\___/|_|   \__,_|_| |_| |_|<br/>
 <br/>
-Se znaèkou  [code] vypadá text takto:
+Se zna×˜kou  [code] vypad×‘ text takto:
 <pre style="border: 1px solid #dde; background-color: #ffe; padding: 0px 0px 0px 10px">
   _____  _
  |  __ \| |
@@ -137,39 +137,39 @@ Se znaèkou  [code] vypadá text takto:
 
 </pre>
 
-    <h3>Uvozenı text: [quote]...[/quote] or [quote=...]...[/quote]</h3>
-		Chcete-li pøidat uvozovky do své zprávy, mùete pouít tuto znaèku.
-		Muete zvolit, zda chcete ke znaèce zahrnout napøíklad také jméno osoby nebo ne.
-		Pøíklad:<br/><br/>
+    <h3>Uvozenâ€ text: [quote]...[/quote] or [quote=...]...[/quote]</h3>
+		Chcete-li p×¨idat uvozovky do sv×™ zpr×‘vy, m×©Âete pouÂ×t tuto zna×˜ku.
+		MuÂete zvolit, zda chcete ke zna×˜ce zahrnout nap×¨×klad tak×™ jm×™no osoby nebo ne.
+		P×¨×klad:<br/><br/>
     <tt>
-    [quote]Phorum je nejlepší![/quote]<br/>
+    [quote]Phorum je nejlepÂš×![/quote]<br/>
     [quote=Hamlet - William Shakespeare]<br/>
-		Bıt èi nebıt? To je otázka.<br/>
-		Je dùstojnìjší strpìt pomyšlení,<br/>
-		e násilnickı osud do nás bije,<br/>
-		nebo vzít zbraò na moøe trápení,<br/>
-		a tak s tím skoncovat? Umøít - spát - a dost.<br/>
+		Bâ€t ×˜i nebâ€t? To je ot×‘zka.<br/>
+		Je d×©stojn×œjÂš× strp×œt pomyÂšlen×,<br/>
+		Âe n×‘silnickâ€ osud do n×‘s bije,<br/>
+		nebo vz×t zbra×¢ na mo×¨e tr×‘pen×,<br/>
+		a tak s t×m skoncovat? Um×¨×t - sp×‘t - a dost.<br/>
     [/quote]
     </tt><br/><br/>
-    Takto se pøíklad zobrazí:<br/><br/>
-    <blockquote class="bbcode">Quote:<div>Phorum je nejlepší!</div></blockquote>
+    Takto se p×¨×klad zobraz×:<br/><br/>
+    <blockquote class="bbcode">Quote:<div>Phorum je nejlepÂš×!</div></blockquote>
     <blockquote class="bbcode">Quote:<div><strong>Hamlet - William Shakespeare</strong><br />
-    Bıt èi nebıt? To je otázka.
+    Bâ€t ×˜i nebâ€t? To je ot×‘zka.
     <br />
-    Je dùstojnìjší strpìt pomyšlení,
+    Je d×©stojn×œjÂš× strp×œt pomyÂšlen×,
     <br />
-    e násilnickı osud do nás bije,
+    Âe n×‘silnickâ€ osud do n×‘s bije,
     <br />
-    nebo vzít zbraò na moøe trápení,
+    nebo vz×t zbra×¢ na mo×¨e tr×‘pen×,
     <br />
-    a tak s tím skoncovat? Umøít - spát - a dost.
+    a tak s t×m skoncovat? Um×¨×t - sp×‘t - a dost.
     <br /></div></blockquote>
 
-    <h3>Horizontální oddìlovací èára: [hr]</h3>
-    K vloení oddìlovací èáry do zprávy vlote znaèku [hr].
-    Takto bude vypadat vısledek:
+    <h3>Horizont×‘ln× odd×œlovac× ×˜×‘ra: [hr]</h3>
+    K vloÂen× odd×œlovac× ×˜×‘ry do zpr×‘vy vloÂte zna×˜ku [hr].
+    Takto bude vypadat vâ€sledek:
     <hr>
-		Tato znaèka je vhodná k rozdìlení struktury u dlouhıch zpráv.
+		Tato zna×˜ka je vhodn×‘ k rozd×œlen× struktury u dlouhâ€ch zpr×‘v.
 
     <h3>Itemized list:<br/>[list]<br/>[*] item 1<br/>[*] item 2<br/>[/list]</h3>
 

@@ -1,4 +1,4 @@
-<div class="PhorumLargeFont">{LANG->UnapprovedUsers}</div>
+﻿<div class="PhorumLargeFont">{LANG->UnapprovedUsers}</div>
 <form action="{URL->ACTION}" method="post">
   {POST_VARS}
   <table border="0" cellspacing="0" class="PhorumStdTable">

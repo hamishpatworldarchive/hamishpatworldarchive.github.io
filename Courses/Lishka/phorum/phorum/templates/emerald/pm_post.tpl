@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE pm_post.tpl -->
+﻿<!-- BEGIN TEMPLATE pm_post.tpl -->
 {IF PREVIEW}
 
     <div class="information">

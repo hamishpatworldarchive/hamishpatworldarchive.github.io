@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // This module demonstrates the use of multiple hooks in a single module.
 

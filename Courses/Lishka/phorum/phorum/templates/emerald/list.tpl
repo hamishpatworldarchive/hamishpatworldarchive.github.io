@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE list.tpl -->
+﻿<!-- BEGIN TEMPLATE list.tpl -->
 <div class="nav">
     {INCLUDE "paging"}
     <!-- CONTINUE TEMPLATE list.tpl -->

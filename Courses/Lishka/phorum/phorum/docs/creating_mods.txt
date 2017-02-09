@@ -1,4 +1,4 @@
-Creating Modules for Phorum5
+﻿Creating Modules for Phorum5
 ============================
 
 This document describes the Phorum5 module system. It is targeted at

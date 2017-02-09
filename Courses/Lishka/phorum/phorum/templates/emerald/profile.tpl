@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE profile.tpl -->
+﻿<!-- BEGIN TEMPLATE profile.tpl -->
 <div class="nav">
     {IF URL->INDEX}<a class="icon icon-folder" href="{URL->INDEX}">{LANG->ForumList}</a>{/IF}
     {IF FORUM_ID}

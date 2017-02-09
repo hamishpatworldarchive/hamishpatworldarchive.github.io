@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 if (! isset($GLOBALS["PHORUM"]["mod_event_logging"])) {
     $GLOBALS["PHORUM"]["mod_event_logging"] = array();

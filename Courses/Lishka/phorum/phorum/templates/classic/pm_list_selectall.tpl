@@ -1,4 +1,4 @@
-{IF NOT ITEMCOUNT 0}
+﻿{IF NOT ITEMCOUNT 0}
   {IF NOT ITEMCOUNT 1}
     {VAR DID_TOGGLEBLOCK 1}
     <script type="text/javascript">

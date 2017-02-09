@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /******************************************************************************
  * iScramble - Scramble HTML source to make it difficult to read              *

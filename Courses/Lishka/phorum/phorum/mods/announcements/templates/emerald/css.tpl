@@ -1,3 +1,3 @@
-#phorum table.announcements {
+﻿#phorum table.announcements {
     margin-bottom: 20px;
 }

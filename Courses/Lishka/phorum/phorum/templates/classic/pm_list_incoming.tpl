@@ -1,4 +1,4 @@
-<table border="0" cellspacing="0" class="PhorumStdTable">
+﻿<table border="0" cellspacing="0" class="PhorumStdTable">
   <tr>
     <th class="PhorumTableHeader" align="left" width="20">
       {VAR ITEMCOUNT MESSAGECOUNT}

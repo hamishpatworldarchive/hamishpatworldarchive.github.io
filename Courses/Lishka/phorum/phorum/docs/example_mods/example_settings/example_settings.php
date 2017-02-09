@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // This module demonstrates the use of settings for a Phorum module.
 // This module will display a configurable string for a configurable

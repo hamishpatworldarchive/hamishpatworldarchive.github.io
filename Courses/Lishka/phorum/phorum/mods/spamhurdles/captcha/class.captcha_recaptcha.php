@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Note:
 // This CAPTCHA needs a public and private key for communicating

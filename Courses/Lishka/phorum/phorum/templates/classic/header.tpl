@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if ($PHORUM['DATA']['CHARSET']) {
     header("Content-Type: text/html; charset=".htmlspecialchars($PHORUM['DATA']['CHARSET']));
     echo '<?xml version="1.0" encoding="'.$PHORUM['DATA']['CHARSET'].'"?>';

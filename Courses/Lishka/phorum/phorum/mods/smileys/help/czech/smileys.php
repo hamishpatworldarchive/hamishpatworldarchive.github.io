@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
   // The definition of the possible uses for a smiley.
   $PHORUM_MOD_SMILEY_USES = array(
       0   => "B",
@@ -8,20 +8,20 @@
 ?>
 <html>
   <head>
-    <title>Smajlící nápovìda</title>
+    <title>Smajl×c× n×‘pov×œda</title>
     <link rel="stylesheet" type="text/css" href="<?php print $GLOBALS["PHORUM"]["http_path"] ?>/mods/smileys/help/help.css"/>
   </head>
   <body>
-    <h2>Smajlící nápovìda</h2>
+    <h2>Smajl×c× n×‘pov×œda</h2>
 
-		Na tomto fóru mùete pouít smajlíky. Smajlící jsou øetìzce znakù, které se ve zprávì zobrazují jako obrázky.
-		Ty se pouívají pro vyjádøení nálady autora pøíspìvku. V tabulce dole jsou všechny dostupné smajlíky. Ve sloupci "Kde"
-		je popis, kde je moné smajlík pouít (S = subjekt zprávy, B = tìlo zprávy, BS = všude).	
+		Na tomto f×£ru m×©Âete pouÂ×t smajl×ky. Smajl×c× jsou ×¨et×œzce znak×©, kter×™ se ve zpr×‘v×œ zobrazuj× jako obr×‘zky.
+		Ty se pouÂ×vaj× pro vyj×‘d×¨en× n×‘lady autora p×¨×sp×œvku. V tabulce dole jsou vÂšechny dostupn×™ smajl×ky. Ve sloupci "Kde"
+		je popis, kde je moÂn×™ smajl×k pouÂ×t (S = subjekt zpr×‘vy, B = t×œlo zpr×‘vy, BS = vÂšude).	
     <br/><br/>
     <table cellspacing="1" width="100%">
     <tr>
-      <th class="PhorumAdminTableHead">Smajlík</th>
-      <th class="PhorumAdminTableHead">Obrázek</th>
+      <th class="PhorumAdminTableHead">Smajl×k</th>
+      <th class="PhorumAdminTableHead">Obr×‘zek</th>
       <th class="PhorumAdminTableHead">Popis</th>
       <th class="PhorumAdminTableHead">Kde</th>
     </tr>

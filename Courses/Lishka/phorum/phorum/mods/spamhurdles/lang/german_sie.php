@@ -1,17 +1,17 @@
-<?php
+ï»¿<?php
 $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 (
     // Code CAPTCHA
     "CaptchaTitle" => "Spamschutz:",
-    "CaptchaExplain" => "Geben Sie bitte den Code aus dem unten stehenden Bild in das Eingabefeld ein. Damit werden Spamprogramme, die versuchen, dieses Formular automatisch auszufüllen, geblockt.",
+    "CaptchaExplain" => "Geben Sie bitte den Code aus dem unten stehenden Bild in das Eingabefeld ein. Damit werden Spamprogramme, die versuchen, dieses Formular automatisch auszufï¢•llen, geblockt.",
     "CaptchaUnclearExplain" => "Wenn der Code schwer zu lesen ist, raten Sie einfach. Bei einem falschen Code wird ein neues Bild erzeugt und Sie erhalten eine zweite Chance.",
     "CaptchaSpoken" => "Diesen Code vorlesen lassen (auf Englisch).",
     "CaptchaFieldLabel" => "Code eingeben: ",
-    "CaptchaWrongCode" => "Sie haben einen falschen Code für die Spamschutz-Abfrage eingegeben. Bitte versuchen Sie es noch einmal.",
+    "CaptchaWrongCode" => "Sie haben einen falschen Code fï¢•r die Spamschutz-Abfrage eingegeben. Bitte versuchen Sie es noch einmal.",
 
     // Mathematical CAPTCHA
     "MaptchaTitle" => "Spamschutz:",
-    "MaptchaExplain" => "Bitte geben Sie die Lösung der Rechenaufgabe in das Eingabefeld ein. Damit werden Spamprogramme, die versuchen, dieses Formular automatisch auszufüllen, geblockt.",
+    "MaptchaExplain" => "Bitte geben Sie die L×¦sung der Rechenaufgabe in das Eingabefeld ein. Damit werden Spamprogramme, die versuchen, dieses Formular automatisch auszufï¢•llen, geblockt.",
     "MaptchaQuestion" => "{NUMBER1} plus {NUMBER2} = ?",
     "MaptchaSpoken" => "Die Frage vorlesen lassen (auf Englisch).",
     "MaptchaFieldLabel" => "Antwort: ",
@@ -22,11 +22,11 @@ $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array
 
     // Generic message when a block was hit, but the user is still allowed
     // to post an automatically unapproved message.
-    "PostingUnapproveError" => "Die Anti-Spam Software auf diesem Server hat Ihren Beitrag als Spam eingeordnet. Sie können die Nachricht trotzdem abschicken, aber sie wird erst publiziert, wenn ein Moderator sie freigibt. Sie können Ihren Beitrag nun noch einmal absenden.",
+    "PostingUnapproveError" => "Die Anti-Spam Software auf diesem Server hat Ihren Beitrag als Spam eingeordnet. Sie k×¦nnen die Nachricht trotzdem abschicken, aber sie wird erst publiziert, wenn ein Moderator sie freigibt. Sie k×¦nnen Ihren Beitrag nun noch einmal absenden.",
 
     // Generic message when blocking a message. We do not want to
     // feed specific blocking reasons to those who are blocked, because
     // that info might be used to bypass the blocking reasons.
-    "BlockError" => "Die Anti-Spam Software auf diesem Server hat Ihren Beitrag als Spam eingeordnet. Darum wurde der Beitrag geblockt. Wenn der Beitrag kein Spam war, wenden Sie sich bitte an einen Administrator.<br/><br/><b>Hinweis</b>: Wenn JavaScript in Ihrem Browser ausgeschaltet ist, könnte dies der Grund für das Blocken sein. Einige der verwendeten Anti-Spam-Maßnahmen verwenden JavaScript.",
+    "BlockError" => "Die Anti-Spam Software auf diesem Server hat Ihren Beitrag als Spam eingeordnet. Darum wurde der Beitrag geblockt. Wenn der Beitrag kein Spam war, wenden Sie sich bitte an einen Administrator.<br/><br/><b>Hinweis</b>: Wenn JavaScript in Ihrem Browser ausgeschaltet ist, k×¦nnte dies der Grund fï¢•r das Blocken sein. Einige der verwendeten Anti-Spam-Maï¢“nahmen verwenden JavaScript.",
 );
 ?>

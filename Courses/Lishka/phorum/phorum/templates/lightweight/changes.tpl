@@ -1,4 +1,4 @@
-<p>{LANG->Message}: <a href="{MESSAGE->URL->READ}">{MESSAGE->subject}</a></p>
+﻿<p>{LANG->Message}: <a href="{MESSAGE->URL->READ}">{MESSAGE->subject}</a></p>
 
 <div class="nav">
     {IF URL->INDEX}<a class="icon icon-folder" href="{URL->INDEX}">{LANG->ForumList}</a>{/IF}

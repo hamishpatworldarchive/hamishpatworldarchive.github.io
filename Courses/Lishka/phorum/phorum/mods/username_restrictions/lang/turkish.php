@@ -1,27 +1,27 @@
-<?php
+ï»¿<?php
 
 $PHORUM['DATA']['LANG']['mod_username_restrictions'] = array(
-    'min_length'     => 'Lütfen daha uzun bir kullanýcý adý seçiniz ' .
+    'min_length'     => 'Lï¢•tfen daha uzun bir kullanâ€Žcâ€Ž adâ€Ž se×—iniz ' .
                         '(Minimum uzunluk %length% karakterdir).', 
-    'max_length'     => 'Lütfen daha kýsa bir kullanýcý adý seçiniz' .
+    'max_length'     => 'Lï¢•tfen daha kâ€Žsa bir kullanâ€Žcâ€Ž adâ€Ž se×—iniz' .
                         '(Maksimum uzunluk %length% karakterdir).', 
-    'valid_chars'    => 'Lütfen farklý bir kullanýcý adý seçiniz. ' .
-                        '"%username%" kullanýcý adý bir veya daha fazla geçersiz karakter ' .
-                        'içermektedir. Geçerli karakterler: %valid_chars%. ' .
-                        'Sizin rahatlýðýnýz için, gereksiz karakterler ' .
-                        'aþaðýdaki formda kullanýcý adýnýzdan kaldýrýlmýþtýr.',
+    'valid_chars'    => 'Lï¢•tfen farklâ€Ž bir kullanâ€Žcâ€Ž adâ€Ž se×—iniz. ' .
+                        '"%username%" kullanâ€Žcâ€Ž adâ€Ž bir veya daha fazla ge×—ersiz karakter ' .
+                        'i×—ermektedir. Ge×—erli karakterler: %valid_chars%. ' .
+                        'Sizin rahatlâ€Ž× â€Žnâ€Žz i×—in, gereksiz karakterler ' .
+                        'aâ€a× â€Ždaki formda kullanâ€Žcâ€Ž adâ€Žnâ€Žzdan kaldâ€Žrâ€Žlmâ€Žâ€tâ€Žr.',
     'allowed_l'      => 'harfler (a-z)',
-    'allowed_n'      => 'sayýlar (0-9)',
+    'allowed_n'      => 'sayâ€Žlar (0-9)',
     'allowed_d'      => 'nokta (.)',
-    'allowed_u'      => 'altý çizili (_)',
+    'allowed_u'      => 'altâ€Ž ×—izili (_)',
     'allowed_h'      => 'tire (-)',
-    'allowed_s'      => 'boþluk ( )',
+    'allowed_s'      => 'boâ€luk ( )',
     'and'            => 've',
-    'only_lowercase' => 'Lütfen daha farklý bir kullanýcý adý seçiniz. ' .
-                        '"%username%" kullanýcý ismi bir veya daha fazla büyük harf ' .
-                        'içermektedir, fakat sadece küçük karakterlere izin verilmektedir. ' .
-                        'Sizin rahatlýðýnýz için kullanýcý adýnýzdaki büyük karakterler ' .
-                        'aþaðýdaki formda küçültülmüþtür.',
+    'only_lowercase' => 'Lï¢•tfen daha farklâ€Ž bir kullanâ€Žcâ€Ž adâ€Ž se×—iniz. ' .
+                        '"%username%" kullanâ€Žcâ€Ž ismi bir veya daha fazla bï¢•yï¢•k harf ' .
+                        'i×—ermektedir, fakat sadece kï¢•×—ï¢•k karakterlere izin verilmektedir. ' .
+                        'Sizin rahatlâ€Ž× â€Žnâ€Žz i×—in kullanâ€Žcâ€Ž adâ€Žnâ€Žzdaki bï¢•yï¢•k karakterler ' .
+                        'aâ€a× â€Ždaki formda kï¢•×—ï¢•ltï¢•lmï¢•â€tï¢•r.',
 );
 
 ?>

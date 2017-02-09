@@ -1,4 +1,4 @@
-{IF Message}
+﻿{IF Message}
   <div class="PhorumUserError">{Message}</div>
 {/IF}
 <div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left;">{LANG->JoinAGroup}</div>

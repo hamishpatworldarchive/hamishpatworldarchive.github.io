@@ -1,4 +1,4 @@
-// Setup the Phorum.Ajax namespace if it has not yet been setup.
+﻿// Setup the Phorum.Ajax namespace if it has not yet been setup.
 if (Phorum === undefined) Phorum = {};
 if (Phorum.Ajax === undefined) Phorum.Ajax = {};
 

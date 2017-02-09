@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 require_once('./include/api/custom_profile_fields.php');
 

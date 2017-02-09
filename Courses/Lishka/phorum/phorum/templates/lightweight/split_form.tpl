@@ -1,4 +1,4 @@
-<div class="generic">
+﻿<div class="generic">
     <h4>{LANG->SplitThread}</h4>
     <form method="POST" action="{URL->ACTION}">
         {POST_VARS}

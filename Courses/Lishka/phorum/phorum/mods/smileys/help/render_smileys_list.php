@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 foreach ($GLOBALS["PHORUM"]["mod_smileys"]["smileys"] as $id => $item)
 {
     if (! $item["active"]) continue;

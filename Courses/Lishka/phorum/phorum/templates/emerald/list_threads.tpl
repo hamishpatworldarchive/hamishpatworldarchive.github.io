@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE list_threads.tpl -->
+﻿<!-- BEGIN TEMPLATE list_threads.tpl -->
 <div class="nav">
     {INCLUDE "paging"}
     <!-- CONTINUE TEMPLATE list_threads.tpl -->

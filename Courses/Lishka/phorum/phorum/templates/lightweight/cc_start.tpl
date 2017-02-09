@@ -1,4 +1,4 @@
-<div class="generic">
+﻿<div class="generic">
     <dl>
         <dt>{LANG->Username}:</dt>
         <dd>{PROFILE->username}</dd>

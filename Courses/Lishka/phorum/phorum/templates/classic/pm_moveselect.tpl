@@ -1,4 +1,4 @@
-{IF PM_USERFOLDERS}
+﻿{IF PM_USERFOLDERS}
   <span style="white-space: nowrap; float:right">
     <select name="target_folder" style="vertical-align: middle;">
       <option value=""> {LANG->PMSelectAFolder}</option>

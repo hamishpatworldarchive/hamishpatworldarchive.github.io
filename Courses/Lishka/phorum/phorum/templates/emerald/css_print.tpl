@@ -1,4 +1,4 @@
-/* BEGIN TEMPLATE css_print.tpl */
+﻿/* BEGIN TEMPLATE css_print.tpl */
 
 /* does not use template values on purpose */
 

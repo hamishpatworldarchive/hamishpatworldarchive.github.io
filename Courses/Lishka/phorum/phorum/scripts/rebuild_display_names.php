@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 // Rebuild all real name information in the database from scratch.
 // This can take a while, so only run this script if needed.

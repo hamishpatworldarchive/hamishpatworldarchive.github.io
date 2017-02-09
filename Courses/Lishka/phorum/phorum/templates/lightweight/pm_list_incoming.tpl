@@ -1,4 +1,4 @@
-{IF MESSAGECOUNT}
+﻿{IF MESSAGECOUNT}
     <table border="0" cellspacing="0" class="list">
         <tr>
             <th align="left" width="20">

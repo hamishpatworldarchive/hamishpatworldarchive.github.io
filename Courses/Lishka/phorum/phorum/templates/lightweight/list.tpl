@@ -1,4 +1,4 @@
-<div class="nav">
+﻿<div class="nav">
     {INCLUDE "paging"}
     {IF URL->INDEX}&raquo; <a class="icon" href="{URL->INDEX}">{LANG->ForumList}</a>{/IF}
     &raquo; <a class="icon" href="{URL->POST}">{LANG->NewTopic}</a>

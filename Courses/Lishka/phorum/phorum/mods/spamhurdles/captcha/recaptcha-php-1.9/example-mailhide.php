@@ -1,4 +1,4 @@
-<html><body>
+﻿<html><body>
 <?
 require_once ("recaptchalib.php");
 

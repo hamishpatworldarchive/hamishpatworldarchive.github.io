@@ -1,4 +1,4 @@
-<?php
+﻿<?php
     if (!defined("PHORUM_ADMIN")) return;
 
     include("./mods/username_restrictions/defaults.php");

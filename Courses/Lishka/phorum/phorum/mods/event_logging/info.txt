@@ -1,4 +1,4 @@
-title: Event Logging
+﻿title: Event Logging
 desc: This module implements an event logging system, which can be used for logging various events. Other modules can use this module for logging purposes too.
 require_version: 5.2.13
 version: 1.0.8

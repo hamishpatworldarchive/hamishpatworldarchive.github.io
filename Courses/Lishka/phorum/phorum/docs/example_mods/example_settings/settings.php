@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Make sure that this script is loaded from the admin interface.
 if(!defined("PHORUM_ADMIN")) return;

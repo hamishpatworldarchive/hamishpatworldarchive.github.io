@@ -1,4 +1,4 @@
-<form action="{URL->ACTION}" method="POST">
+﻿<form action="{URL->ACTION}" method="POST">
   {POST_VARS}
   <div class="PhorumStdBlockHeader PhorumHeaderText" style="text-align: left;">{LANG->Subscriptions}</div>
   <div class="PhorumStdBlock PhorumFloatingText" style="text-align: left;">

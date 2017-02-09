@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Button descriptions.
     'b'             => 'Lihavointi',
@@ -6,34 +6,34 @@ $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     'u'             => 'Alleviivaus',
     's'             => 'Yliviivaus',
     'sub'           => 'Alaviite',
-    'sup'           => 'Yl�viite',
-    'color'         => 'Kirjasinv�ri',
+    'sup'           => 'Ylן¿½viite',
+    'color'         => 'Kirjasinvן¿½ri',
     'size'          => 'Kirjasinkoko',
-    'center'        => 'Keskit�',
-    'url'           => 'Liit� URL',
-    'email'         => 'Liit� s�hk�posti',
-    'img'           => 'Liit� kuva URL',
-    'hr'            => 'Lis�� vaakaviiva',
+    'center'        => 'Keskitן¿½',
+    'url'           => 'Liitן¿½ URL',
+    'email'         => 'Liitן¿½ sן¿½hkן¿½posti',
+    'img'           => 'Liitן¿½ kuva URL',
+    'hr'            => 'Lisן¿½ן¿½ vaakaviiva',
     'code'          => 'Koodi blokki',
-    'quote'         => 'Liit� lainaus',
+    'quote'         => 'Liitן¿½ lainaus',
 
     # The text that is shown in the quote block.
     'quote_title'   => 'Lainaus',
 
     # Dialogs and errors.
-    'enter url'     => 'Ole hyv� ja sy�t� linkin osoite.',
-    'enter url description' => 'Ole hyv� ja sy�t� linkin kuvaus.',
-    'invalid url'   => 'Osoite on ep�kelpo. Sen pit�� alkaa tekstill� http://, https://, ftp:// tai mailto:',
-    'enter image url' => 'Ole hyv� ja sy�t� lis�tt�v�n kuvan osoite.',
-    'invalid image url' => 'Kuvan osoite on ep�kelpo. Sen pit�� alkaa tekstill� http://, https:// tai ftp://',
-    'enter who you quote' => 'Ole hyv� ja sy�t� lainaamsi henkil�n nimi. Voit j�tt�� kent�n my�s tyhj�ksi halutessasi.',
+    'enter url'     => 'Ole hyvן¿½ ja syן¿½tן¿½ linkin osoite.',
+    'enter url description' => 'Ole hyvן¿½ ja syן¿½tן¿½ linkin kuvaus.',
+    'invalid url'   => 'Osoite on epן¿½kelpo. Sen pitן¿½ן¿½ alkaa tekstillן¿½ http://, https://, ftp:// tai mailto:',
+    'enter image url' => 'Ole hyvן¿½ ja syן¿½tן¿½ lisן¿½ttן¿½vן¿½n kuvan osoite.',
+    'invalid image url' => 'Kuvan osoite on epן¿½kelpo. Sen pitן¿½ן¿½ alkaa tekstillן¿½ http://, https:// tai ftp://',
+    'enter who you quote' => 'Ole hyvן¿½ ja syן¿½tן¿½ lainaamsi henkilן¿½n nimi. Voit jן¿½ttן¿½ן¿½ kentן¿½n myן¿½s tyhjן¿½ksi halutessasi.',
 
     # For the size picker.
-    'x-large'      => 'Eritt�in suuri kirjasin',
+    'x-large'      => 'Erittן¿½in suuri kirjasin',
     'large'        => 'Suuri kirjasin',
     'medium'       => 'Oletuskokoinen kirjasin',
     'small'        => 'Pieni kirjasin',
-    'x-small'      => 'Eritt�in pieni kirjasin',
+    'x-small'      => 'Erittן¿½in pieni kirjasin',
 
     # For the list type picker.
     'list type b'  => 'Bullets',

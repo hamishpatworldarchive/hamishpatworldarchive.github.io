@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 // Find all private messages.
 $res = phorum_db_interact(

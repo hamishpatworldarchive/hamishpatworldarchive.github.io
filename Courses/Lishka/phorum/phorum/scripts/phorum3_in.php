@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM5_CONVERSION")) return;
 
 // Phorum3 - to - Phorum5 Conversion Library

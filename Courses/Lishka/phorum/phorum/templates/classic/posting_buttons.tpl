@@ -1,4 +1,4 @@
-<div class="PhorumStdBlock PhorumNarrowBlock" style="text-align: right; border-top: none">
+﻿<div class="PhorumStdBlock PhorumNarrowBlock" style="text-align: right; border-top: none">
   {HOOK "tpl_editor_buttons"}
   <input type="submit" name="preview" class="PhorumSubmit" value=" {LANG->Preview} " />
   <input type="submit" name="finish" class="PhorumSubmit" value=" {POSTING->submitbutton_text} " />

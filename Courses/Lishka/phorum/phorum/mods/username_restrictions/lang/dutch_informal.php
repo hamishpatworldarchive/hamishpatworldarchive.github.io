@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $PHORUM['DATA']['LANG']['mod_username_restrictions'] = array(
     'min_length'     => 'Kies alsjeblieft een langere loginnaam ' .

@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 
 $upgrade_queries[]= 
     "CREATE TABLE {$PHORUM['message_tracking_table']} (

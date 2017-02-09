@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 //Last updated for version 1.0.9 by Pascal d'Hermilly
 
 $PHORUM["DATA"]["LANG"]["mod_spamhurdles"] = array

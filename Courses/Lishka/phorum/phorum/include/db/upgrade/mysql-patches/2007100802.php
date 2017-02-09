@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 include './include/thread_info.php';
 

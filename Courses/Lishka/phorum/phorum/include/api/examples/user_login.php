@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 # Handle a user forum login
 
 if (!defined('PHORUM')) return;

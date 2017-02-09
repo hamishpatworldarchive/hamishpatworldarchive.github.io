@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 if(isset($_GET['test'])){
 	function get_data($smtp_conn){

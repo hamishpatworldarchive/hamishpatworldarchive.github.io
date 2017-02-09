@@ -1,4 +1,4 @@
-{IF Message}
+﻿{IF Message}
   <div class="PhorumUserError">{Message}</div>
 {/IF}
 {IF GROUP->name}

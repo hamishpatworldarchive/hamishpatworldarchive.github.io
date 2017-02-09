@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 if(!defined("PHORUM_ADMIN")) return;
 
 $upgrade_queries[]="ALTER TABLE {$PHORUM['search_table']} ADD COLUMN forum_id int(10) UNSIGNED NOT NULL DEFAULT '0', ADD KEY forum_id (forum_id)";

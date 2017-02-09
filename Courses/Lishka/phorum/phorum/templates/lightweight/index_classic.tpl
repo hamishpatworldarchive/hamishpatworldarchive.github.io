@@ -1,4 +1,4 @@
-{IF FOLDERS}
+﻿{IF FOLDERS}
     <table cellspacing="0" class="list">
         <tr>
             <th align="left">{LANG->Folders}</th>

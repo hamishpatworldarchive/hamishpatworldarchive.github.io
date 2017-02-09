@@ -1,4 +1,4 @@
-# Can be overridden using:
+﻿# Can be overridden using:
 # make TEMPLATE=.....
 TEMPLATE=default
 

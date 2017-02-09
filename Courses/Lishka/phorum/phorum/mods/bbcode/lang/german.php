@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 $PHORUM["DATA"]["LANG"]["mod_bbcode"] = array(
     # Button descriptions.
     'b'             => 'Fett',

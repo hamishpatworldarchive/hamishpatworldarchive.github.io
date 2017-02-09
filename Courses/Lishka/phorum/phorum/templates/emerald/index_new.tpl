@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE index_new.tpl -->
+﻿<!-- BEGIN TEMPLATE index_new.tpl -->
 <table cellspacing="0" class="list">
     {LOOP FORUMS}
         {IF FORUMS->level 0}

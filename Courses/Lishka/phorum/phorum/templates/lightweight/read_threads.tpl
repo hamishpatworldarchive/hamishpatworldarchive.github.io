@@ -1,4 +1,4 @@
-<div class="nav">
+﻿<div class="nav">
     <div class="nav-right">
         &raquo; <a class="icon" href="{MESSAGE->URL->PREV}">{LANG->PreviousMessage}</a>
         &raquo; <a class="icon" href="{MESSAGE->URL->NEXT}">{LANG->NextMessage}</a>

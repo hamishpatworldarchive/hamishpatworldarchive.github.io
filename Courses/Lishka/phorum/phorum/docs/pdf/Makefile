@@ -1,4 +1,4 @@
-all:
+﻿all:
 	(cd ../docbook/developer; ./mkhookdocs)
 	(dblatex -T simple -o admin.pdf -x --novalid ../docbook/admin/index.xml)
 	(dblatex -T simple -o developer.pdf -x --novalid ../docbook/developer/index.xml)

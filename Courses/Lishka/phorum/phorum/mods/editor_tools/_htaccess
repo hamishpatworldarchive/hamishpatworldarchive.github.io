@@ -1,4 +1,4 @@
-# Allow access to our image file.
+﻿# Allow access to our image file.
 <Files ~ "\.(png|gif|js|css|html|php)$">
     Order allow,deny
     Allow from all

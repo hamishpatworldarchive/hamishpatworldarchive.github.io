@@ -1,4 +1,4 @@
-{IF PREVIEW}
+﻿{IF PREVIEW}
 
     <div class="information">
         {LANG->PreviewExplain}

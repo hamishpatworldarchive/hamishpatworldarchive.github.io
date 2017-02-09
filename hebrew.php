@@ -1,7 +1,7 @@
-<?php
+﻿<?php
 // Checks if the input text is Hebrew
 function checkHebrew($str){
-	preg_match('/[א-ת]/u', $str, $match);
+	preg_match('/[׳-׳×]/u', $str, $match);
 	return ( mb_detect_encoding($str, 'UTF-8', true) == 'UTF-8' && !empty($match[0]) );
 }
 

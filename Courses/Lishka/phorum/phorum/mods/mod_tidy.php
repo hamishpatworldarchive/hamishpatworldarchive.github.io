@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /* phorum module info
 hook:  common|mod_tidy_start

@@ -1,4 +1,4 @@
-<!-- BEGIN TEMPLATE cc_subscriptions.tpl -->
+﻿<!-- BEGIN TEMPLATE cc_subscriptions.tpl -->
 <form action="{URL->ACTION}" method="POST">
     {POST_VARS}
     <div class="generic">

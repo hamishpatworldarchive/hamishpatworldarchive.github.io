@@ -1,4 +1,4 @@
-<html>
+﻿<html>
   <body>
     <form action="" method="post">
 <?php
